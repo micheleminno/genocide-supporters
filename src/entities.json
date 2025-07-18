@@ -1,408 +1,534 @@
 [
   {
-    "name": "A.P. Moller - Maersk A/S",
-    "country": "Danimarca",
-    "sector": "Logistica (trasporti marittimi)",
-    "involvement": "Compagnia di navigazione che trasporta componenti, armamenti e materie prime, sostenendo il flusso costante di forniture militari verso Israele (soprattutto dopo ottobre 2023).",
-    "source": "Trasferimento, par. 6"
+    "name": "Elbit Systems",
+    "country": "Israele",
+    "sector": "Difesa (produzione di armi)",
+    "involvement": "Principale azienda bellica israeliana, fornisce droni e armamenti \"collaudati in battaglia\" impiegati per opprimere e attaccare i palestinesi, traendone profitto e rafforzando l’arsenale genocida di Israele",
+    "source": "Rapporto Albanese, paragrafo 3 (sezione A. Trasferimento)"
   },
   {
-    "name": "Airbnb, Inc.",
+    "name": "Israel Aerospace Industries (IAI)",
+    "country": "Israele",
+    "sector": "Difesa (produzione di armi)",
+    "involvement": "Società statale israeliana produttrice di sistemi d’arma avanzati (droni, aeromobili, ecc.), integrata nell’arsenale israeliano e complice dell’occupazione e degli attacchi genocidi contro Gaza",
+    "source": "Rapporto Albanese, paragrafo 3 (sezione A. Trasferimento)"
+  },
+  {
+    "name": "Lockheed Martin",
     "country": "Stati Uniti",
-    "sector": "Piattaforma di viaggio online",
-    "involvement": "Piattaforma di affitti turistici che offre alloggi nelle colonie israeliane illegali, traendo profitto dal turismo coloniale e contribuendo a normalizzarne la presenza.",
-    "source": "Turismo di occupazione, par. 2"
+    "sector": "Difesa (aerospazio militare)",
+    "involvement": "Leader del programma F-35 fornito a Israele e di altre forniture militari: i caccia F-35 e F-16 prodotti da Lockheed Martin hanno dato a Israele potenza aerea senza precedenti, usata per bombardare Gaza con carichi di bombe devastanti",
+    "source": "Rapporto Albanese, paragrafo 2 (sezione A. Trasferimento)"
   },
   {
-    "name": "Allianz SE",
-    "country": "Germania",
-    "sector": "Assicurazioni e gestione patrimoniale",
-    "involvement": "Compagnia assicurativa e di gestione patrimoniale che investe miliardi di dollari in azioni e obbligazioni di società coinvolte nell’occupazione e negli attacchi a Gaza, e fornisce coperture assicurative che riducono i rischi operativi per tali imprese.",
-    "source": "Fattori abilitanti (finanziamento), par. 4"
+    "name": "Leonardo S.p.A.",
+    "country": "Italia",
+    "sector": "Difesa (aerospazio e armamenti)",
+    "involvement": "Produttore italiano di armamenti coinvolto nel programma F-35 (fornendo componenti chiave) e proprietario della israeliana RADA; Leonardo collabora con università israeliane (es. laboratorio con Università Ben Gurion) in progetti di IA e tecnologie belliche impiegate contro i palestinesi",
+    "source": "Rapporto Albanese, paragrafo 2 (sezione A. Trasferimento); paragrafo 4 (fattore accademico)"
+  },
+  {
+    "name": "RADA Electronic Industries",
+    "country": "Israele",
+    "sector": "Tecnologia militare (radar e elettronica)",
+    "involvement": "Società israeliana specializzata in radar militari, ora controllata da Leonardo; fornisce sistemi (es. radar Iron Fist) impiegati nelle armi israeliane come il bulldozer Caterpillar D9 trasformato in mezzo da combattimento telecomandato",
+    "source": "Rapporto Albanese, paragrafo 7 (sezione A. Trasferimento)"
+  },
+  {
+    "name": "Palantir Technologies",
+    "country": "Stati Uniti",
+    "sector": "Tecnologia (software di intelligence)",
+    "involvement": "Azienda USA di big data che collabora da anni con Israele; dopo ottobre 2023 ha intensificato il supporto all’esercito israeliano, fornendo strumenti di polizia predittiva automatizzata per sorvegliare e colpire i palestinesi. Il CEO di Palantir ha giustificato pubblicamente l’uccisione di palestinesi a Gaza da parte dei suoi sistemi",
+    "source": "Rapporto Albanese, paragrafo 6 (sezione A. Trasferimento)"
+  },
+  {
+    "name": "NSO Group",
+    "country": "Israele",
+    "sector": "Tecnologia (cybersicurezza e sorveglianza)",
+    "involvement": "Società israeliana fondata da ex membri dell’Unità 8200, sviluppatrice del software spia Pegasus. Il malware di NSO è stato esportato con licenza del Ministero della Difesa israeliano ed utilizzato per sorvegliare segretamente telefoni di attivisti, giornalisti e leader palestinesi, contribuendo alla repressione digitale",
+    "source": "Rapporto Albanese, paragrafo 5 (sezione A. Trasferimento)"
+  },
+  {
+    "name": "Microsoft",
+    "country": "Stati Uniti",
+    "sector": "Tecnologia (informatica e cloud)",
+    "involvement": "Presente in Israele dal 1991 con il suo maggior centro R&S fuori dagli USA; ha integrato le sue tecnologie civili nei sistemi carcerari e nelle forze armate israeliane e acquisito startup israeliane di cybersecurity. Fornisce servizi cloud e AI (Azure) di livello governativo a Israele (incluso il progetto Nimbus) potenziando le capacità di sorveglianza e attacco dell’esercito israeliano, soprattutto durante la guerra a Gaza",
+    "source": "Rapporto Albanese, paragrafo 4 (sezione A. Trasferimento)"
   },
   {
     "name": "Alphabet Inc. (Google)",
     "country": "Stati Uniti",
-    "sector": "Tecnologia (cloud e AI)",
-    "involvement": "Azienda tecnologica (Google) che fornisce servizi cloud al governo e all’esercito israeliano (es. Progetto Nimbus), potenziandone le capacità di sorveglianza e di elaborazione dei dati.",
-    "source": "Sorveglianza e carcerarietà, par. 5"
+    "sector": "Tecnologia (cloud e servizi web)",
+    "involvement": "La casa madre di Google ha vinto, assieme ad Amazon, un contratto da 1,2 miliardi di $ (Progetto Nimbus) per fornire infrastrutture cloud e AI al governo e all’esercito israeliano. I server Google in Israele garantiscono capacità informatiche avanzate che supportano l’apartheid digitale e le operazioni militari (anche l’assalto a Gaza). Google trae profitto da questi servizi nonostante l’uso bellico",
+    "source": "Rapporto Albanese, paragrafo 6 (sezione A. Trasferimento)"
   },
   {
-    "name": "Amazon.com, Inc.",
+    "name": "Amazon.com Inc.",
     "country": "Stati Uniti",
-    "sector": "E-commerce e cloud computing",
-    "involvement": "Azienda tecnologica e di e-commerce che partecipa al Progetto Nimbus per l’infrastruttura cloud israeliana e opera direttamente nelle colonie attraverso la sua piattaforma, sostenendo l’economia degli insediamenti.",
-    "source": "Sorveglianza e carcerarietà, par. 5"
+    "sector": "Tecnologia & Commercio al dettaglio",
+    "involvement": "Oltre a fornire servizi cloud/AI attraverso il Progetto Nimbus (insieme a Google) a sostegno dell’esercito israeliano, Amazon opera piattaforme di e-commerce con presenza diretta nelle colonie israeliane. Svolgendo consegne e servizi nelle colonie, Amazon sostiene economicamente gli insediamenti illegali e trae profitto dall’occupazione",
+    "source": "Rapporto Albanese, paragrafo 6 (sezione A. Trasferimento); paragrafo 4 (sezione Vendita al dettaglio globale)"
   },
   {
-    "name": "AXA SA",
-    "country": "Francia",
-    "sector": "Assicurazioni",
-    "involvement": "Gruppo assicurativo che ha investito ingenti somme in società coinvolte nelle violazioni israeliane, continuando a detenere azioni e obbligazioni di imprese belliche e attive nelle colonie nonostante alcune promesse di disinvestimento.",
-    "source": "Fattori abilitanti (finanziamento), par. 4"
-  },
-  {
-    "name": "Barclays PLC",
-    "country": "Regno Unito",
-    "sector": "Banca",
-    "involvement": "Istituto bancario che ha sottoscritto titoli di Stato israeliani e finanziato società armamentistiche (es. prestiti a Lockheed Martin e Leonardo), contribuendo a finanziare l’apparato militare israeliano.",
-    "source": "Fattori abilitanti (finanziamento), par. 6"
-  },
-  {
-    "name": "Ben-Gurion University of the Negev",
-    "country": "Israele",
-    "sector": "Università",
-    "involvement": "Università israeliana che collabora con atenei stranieri (es. laboratorio con l’Università di Edimburgo) in progetti di intelligenza artificiale e data science legati direttamente alle operazioni militari israeliane.",
-    "source": "Produzione di conoscenza, par. 4"
-  },
-  {
-    "name": "BlackRock, Inc.",
+    "name": "IBM",
     "country": "Stati Uniti",
-    "sector": "Gestione degli investimenti",
-    "involvement": "Società di gestione degli investimenti che figura tra i maggiori investitori istituzionali nei titoli di Stato israeliani e in numerose aziende complici dell’occupazione e dell’assalto a Gaza, incanalando capitali globali verso l’economia di guerra israeliana.",
-    "source": "Fattori abilitanti (finanziamento), par. 2"
+    "sector": "Tecnologia (informatica)",
+    "involvement": "Operativa in Israele dal 1972, ha formato per decenni personale militare (Unità 8200) per il settore tech. Dal 2019 IBM Israele gestisce e aggiorna il database anagrafico centrale dell’Autorità israeliana per la popolazione, fornendo l’infrastruttura informatica che supporta il regime di apartheid. Storicamente IBM ha sostenuto i sistemi di controllo israeliani (anche collaborando con università locali) e fa parte del nucleo Big Tech che alimenta la sorveglianza di massa dei palestinesi",
+    "source": "Rapporto Albanese, paragrafo 3 (sezione A. Trasferimento)"
   },
   {
-    "name": "BP p.l.c.",
-    "country": "Regno Unito",
-    "sector": "Energia (petrolio e gas)",
-    "involvement": "Multinazionale energetica britannica che esplora gas nelle acque palestinesi occupate (su concessione israeliana) e, come proprietaria dell’oleodotto Baku-Tbilisi-Ceyhan, fornisce circa l’8% del greggio importato da Israele, alimentandone il fabbisogno energetico e militare.",
-    "source": "Elettricità, gas e carburante, par. 4"
-  },
-  {
-    "name": "Bright Dairy & Food Co. Ltd.",
-    "country": "Cina",
-    "sector": "Agroalimentare",
-    "involvement": "Azienda lattiero-casearia cinese, proprietaria di Tnuva (il maggiore conglomerato alimentare israeliano), che trae beneficio dall’espropriazione di terre palestinesi attraverso il dominio di Tnuva sul mercato agroalimentare locale.",
-    "source": "Agroalimentare, par. 2"
-  },
-  {
-    "name": "Caisse de Dépôt et Placement du Québec (CDPQ)",
-    "country": "Canada",
-    "sector": "Fondo pensione",
-    "involvement": "Fondo pensione canadese che ha investito quasi 9 miliardi di dollari australiani in aziende citate nel rapporto; ha incrementato notevolmente le partecipazioni in imprese come Lockheed Martin, Caterpillar e Hyundai dopo il 2023, finanziando di fatto attori chiave dell’occupazione israeliana.",
-    "source": "Fattori abilitanti (finanziamento), par. 5"
-  },
-  {
-    "name": "Caspian Pipeline Consortium (CPC)",
-    "country": "Internazionale (Kazakistan)",
-    "sector": "Consorzio oleodottiero",
-    "involvement": "Consorzio internazionale (in parte di Chevron) che gestisce un oleodotto dal Kazakistan, fornendo circa l’8% del petrolio greggio importato da Israele a partire dal 2023.",
-    "source": "Elettricità, gas e carburante, par. 4"
+    "name": "Hewlett Packard Enterprise (HPE)",
+    "country": "Stati Uniti",
+    "sector": "Tecnologia (informatica)",
+    "involvement": "In passato ha gestito il database centrale della popolazione per conto di Israele; la sua filiale israeliana continua a fornire server e infrastrutture informatiche. HP (HPE) ha a lungo supportato i sistemi dell’apartheid israeliano, fornendo tecnologia all’amministrazione dell’occupazione (COGAT) e alle forze di sicurezza per controllare e segregare i palestinesi",
+    "source": "Rapporto Albanese, paragrafo 3 (sezione A. Trasferimento)"
   },
   {
     "name": "Caterpillar Inc.",
     "country": "Stati Uniti",
-    "sector": "Macchinari pesanti",
-    "involvement": "Multinazionale americana dei macchinari pesanti i cui bulldozer corazzati (es. modello D9) sono utilizzati dall’esercito israeliano per demolire case e infrastrutture palestinesi, nonché per operazioni militari di incursione e spianamento del territorio.",
-    "source": "In vesti civili (Trasferimento), par. 2"
+    "sector": "Macchinari edili",
+    "involvement": "I bulldozer ed escavatori Caterpillar (in particolare il modello D9) sono impiegati da anni da Israele per demolire case palestinesi, distruggere infrastrutture nei territori occupati e scavare terreni. Durante l’assalto a Gaza, il bulldozer D9 Caterpillar è stato persino trasformato in un’arma robotica telecomandata. Nonostante proteste e prove dell’uso criminale dei suoi mezzi, Caterpillar continua a rifornire Israele, diventando complice attivo dello sfollamento forzato e della distruzione nelle TPO",
+    "source": "Rapporto Albanese, paragrafo 2 (Una casa su una terra rubata, sezione B. Sostituzione)"
   },
   {
-    "name": "Carrefour S.A.",
-    "country": "Francia",
-    "sector": "Distribuzione (supermercati)",
-    "involvement": "Catena francese di supermercati entrata nel mercato israeliano (in partnership con un’azienda locale), potenzialmente presente anche nei territori occupati e contribuendo alla normalizzazione commerciale delle colonie.",
-    "source": "Nota [229]"
+    "name": "Volvo Group",
+    "country": "Svezia",
+    "sector": "Macchinari edili",
+    "involvement": "Le macchine movimento terra Volvo (escavatori, ruspe, ecc.) sono utilizzate nella costruzione e ampliamento di colonie illegali da almeno un decennio. Volvo, tramite il suo concessionario esclusivo in Israele, fornisce mezzi impiegati per demolire case palestinesi e costruire infrastrutture coloniali, contribuendo così all’espansione degli insediamenti e al trasferimento forzato",
+    "source": "Rapporto Albanese, paragrafo 2 (Una casa su una terra rubata, sezione B. Sostituzione)"
+  },
+  {
+    "name": "HD Hyundai",
+    "country": "Corea del Sud",
+    "sector": "Macchinari edili",
+    "involvement": "I mezzi pesanti prodotti da Hyundai (nuova denominazione HD Hyundai) sono impiegati da oltre dieci anni per la demolizione di case palestinesi e lo spianamento di villaggi, specialmente nell’Area C della Cisgiordania. Le attrezzature Hyundai, fornite attraverso partner israeliani, hanno facilitato lo sfollamento forzato di comunità palestinesi",
+    "source": "Rapporto Albanese, paragrafo 2 (Una casa su una terra rubata, sezione B. Sostituzione)"
+  },
+  {
+    "name": "Doosan",
+    "country": "Corea del Sud",
+    "sector": "Macchinari edili",
+    "involvement": "Le attrezzature pesanti Doosan (in parte controllata da Hyundai) sono state utilizzate nella costruzione di infrastrutture a servizio delle colonie (es. la metropolitana leggera di Gerusalemme) e nelle demolizioni di proprietà palestinesi, fornendo supporto logistico essenziale all’impresa coloniale israeliana",
+    "source": "Rapporto Albanese, paragrafo 3 (Una casa su una terra rubata, sezione B. Sostituzione)"
+  },
+  {
+    "name": "A.P. Moller - Maersk A/S",
+    "country": "Danimarca",
+    "sector": "Logistica e trasporti marittimi",
+    "involvement": "Colosso globale delle spedizioni, Maersk trasporta regolarmente merci da e per Israele, inclusi componenti, parti e materie prime destinate alla produzione bellica e ai cantieri nelle colonie. Le sue navi hanno consegnato armamenti e materiali utilizzati dall’industria militare israeliana, integrandosi nella catena di fornitura dell’occupazione e alimentando l’economia degli insediamenti illegali",
+    "source": "Rapporto Albanese, paragrafo 2 (sezione Vendita al dettaglio globale)"
+  },
+  {
+    "name": "Construcciones y Auxiliar de Ferrocarriles (CAF)",
+    "country": "Spagna",
+    "sector": "Infrastrutture di trasporto (ferrovie)",
+    "involvement": "Società ferroviaria basca che, in consorzio con un’azienda israeliana, ha ottenuto l’appalto per mantenere ed espandere la linea ferroviaria leggera di Gerusalemme (Linea Rossa) e costruire la nuova Linea Verde. Questo progetto collega Gerusalemme Ovest con colonie in Cisgiordania (27 km di nuovi binari e 53 stazioni nei TPO), consolidando di fatto l’annessione. CAF è subentrata nonostante altre aziende si fossero ritirate per pressioni internazionali, contribuendo a infrastrutture che escludono i palestinesi e rafforzano le colonie illegali",
+    "source": "Rapporto Albanese, paragrafo 3 (Una casa su una terra rubata, sezione B. Sostituzione)"
+  },
+  {
+    "name": "Shapir Engineering and Industry",
+    "country": "Israele",
+    "sector": "Costruzioni e infrastrutture",
+    "involvement": "Impresa israeliana di costruzioni pesantemente coinvolta in progetti negli insediamenti illegali. Shapir fa parte del consorzio (elencato nel database ONU) con CAF per l’espansione della tramvia di Gerusalemme e realizza altre infrastrutture stradali e abitative nelle colonie, facilitando l’espansione della presenza coloniale e l’annessione strisciante del territorio occupato",
+    "source": "Rapporto Albanese, paragrafo 3 (Una casa su una terra rubata, sezione B. Sostituzione)"
+  },
+  {
+    "name": "Heidelberg Materials AG (Hanson Israel)",
+    "country": "Germania",
+    "sector": "Materiali da costruzione (estrattivo)",
+    "involvement": "Gigante dei materiali edili (ex HeidelbergCement). La sua filiale Hanson Israel sfrutta la cava di Nahal Raba in Cisgiordania, estraendo milioni di tonnellate di pietra dolomitica da terra confiscata a villaggi palestinesi – un saccheggio di risorse in violazione del diritto internazionale. Hanson Israel ha vinto un appalto pubblico nel 2018 per fornire questi materiali alla costruzione di colonie israeliane, quasi esaurendo la cava e chiedendone continua espansione. Inoltre, fornisce calcestruzzo e materiali per infrastrutture coloniali, ad esempio per un ponte della metropolitana leggera di Gerusalemme, contribuendo all’urbanizzazione permanente dell’occupazione",
+    "source": "Rapporto Albanese, paragrafo 2 (Una casa su una terra rubata, sezione B. Sostituzione); paragrafo 3"
+  },
+  {
+    "name": "Mekorot",
+    "country": "Israele",
+    "sector": "Servizi idrici (acquedotti)",
+    "involvement": "Compagnia idrica nazionale israeliana che detiene il monopolio sull’acqua nei Territori Palestinesi Occupati. Mekorot attua una distribuzione discriminatoria: costringe i palestinesi a comprare l’acqua (spesso razionata) mentre garantisce fornitura continua alle colonie. Ad esempio, nei primi sei mesi dopo ottobre 2023 ha fatto scorrere solo al 22% della capacità le proprie condutture verso Gaza, lasciando gran parte della popolazione senz’acqua potabile e aggravando la crisi umanitaria",
+    "source": "Rapporto Albanese, paragrafo 1 (sezione Acqua, Sostituzione)"
   },
   {
     "name": "Chevron Corporation",
     "country": "Stati Uniti",
     "sector": "Energia (petrolio e gas)",
-    "involvement": "Compagnia petrolifera statunitense che, in consorzio con NewMed Energy (Gruppo Delek), estrae gas dai giacimenti offshore Leviathan e Tamar (fornendo oltre il 70% del gas israeliano) e trae profitto da infrastrutture come il gasdotto EMG che attraversa acque palestinesi.",
-    "source": "Elettricità, gas e carburante, par. 3"
+    "involvement": "Multinazionale petrolifera che guida, in consorzio con l’israeliana NewMed (gruppo Delek), lo sfruttamento dei grandi giacimenti di gas naturale Leviatano e Tamar nel Mediterraneo orientale. Chevron fornisce oltre il 70% del consumo di gas di Israele e nel 2023 ha versato ~435 milioni $ in royalties e tasse al governo israeliano, finanziandone così la macchina bellica. Trae inoltre profitto dalla sua quota nel gasdotto EMG (che attraversa il Sinai collegando Israele a Egitto) e dalle esportazioni di gas dalla zona, beneficiando indirettamente del blocco di Gaza che tutela queste infrastrutture energetiche",
+    "source": "Rapporto Albanese, paragrafo 3 (sezione Elettricità, gas e carburante, Sostituzione)"
   },
   {
-    "name": "Christian Friends of Israeli Communities (CFOIC)",
-    "country": "Stati Uniti",
-    "sector": "Organizzazione caritativa",
-    "involvement": "Organizzazione cristiana evangelica con sede negli USA che finanzia progetti nelle colonie israeliane illegali nei Territori Occupati, inclusa l’assistenza a colonie estremiste, spesso beneficiando di esenzioni fiscali sui fondi raccolti.",
-    "source": "Fattori abilitanti (finanziamento), par. 9"
-  },
-  {
-    "name": "Construcciones y Auxiliar de Ferrocarriles (CAF)",
-    "country": "Spagna",
-    "sector": "Trasporti ferroviari",
-    "involvement": "Azienda ferroviaria spagnola (basca) coinvolta nell’espansione e manutenzione della rete tranviaria di Gerusalemme (linee Rossa e Verde) che collegano Gerusalemme Ovest alle colonie in Cisgiordania, subentrando ad altre imprese ritiratesi per ragioni etiche.",
-    "source": "Sostituzione, par. 3"
-  },
-  {
-    "name": "Delek Group",
+    "name": "NewMed Energy (Gruppo Delek)",
     "country": "Israele",
-    "sector": "Energia",
-    "involvement": "Conglomerato energetico israeliano (proprietario di NewMed Energy) impegnato nello sfruttamento di gas naturale offshore; tramite NewMed, partecipa all’estrazione di gas nei giacimenti Leviathan e Tamar, pagando consistenti royalties al governo israeliano.",
-    "source": "Elettricità, gas e carburante, par. 3"
+    "sector": "Energia (gas naturale)",
+    "involvement": "Società israeliana (ex Delek Drilling) partner di Chevron nello sfruttamento dei giacimenti offshore Leviatano e Tamar. NewMed trae profitto dall’estrazione di risorse naturali in parte situate in acque contese e dall’integrazione del mercato energetico israeliano, consolidando l’economia dell’occupazione. È inclusa nel database ONU per il suo ruolo nell’industria estrattiva legata agli insediamenti",
+    "source": "Rapporto Albanese, paragrafo 3 (sezione Elettricità, gas e carburante, Sostituzione)"
   },
   {
-    "name": "Development Corporation for Israel (Israel Bonds)",
-    "country": "Israele/Stati Uniti",
-    "sector": "Finanza (obbligazioni)",
-    "involvement": "Ente finanziario noto come Israel Bonds che, dopo ottobre 2023, ha triplicato la vendita annuale di obbligazioni, convogliando quasi 5 miliardi di dollari verso Israele e offrendo agli investitori la possibilità di destinare gli interessi a enti che supportano l’esercito e le colonie.",
-    "source": "Fattori abilitanti (finanziamento), par. 2"
+    "name": "BP p.l.c.",
+    "country": "Regno Unito",
+    "sector": "Energia (petrolio e gas)",
+    "involvement": "Compagnia petrolifera britannica che ha recentemente ampliato la propria presenza in Israele nonostante l’escalation di violenze. Nel marzo 2025 BP ha ottenuto nuove licenze di esplorazione offshore in collaborazione con Israele, entrando nello sfruttamento di giacimenti di gas la cui gestione è contestata in quanto parte delle risorse dei territori occupati. Inoltre BP, attraverso il controllo del oleodotto Baku-Tbilisi-Ceyhan e relativi giacimenti, è tra i principali fornitori del greggio importato da Israele (circa 8% delle importazioni ciascuno insieme a Chevron), alimentando le raffinerie israeliane che riforniscono anche le forze armate e le colonie",
+    "source": "Rapporto Albanese, paragrafo 4 (sezione Elettricità, gas e carburante, Sostituzione)"
   },
   {
-    "name": "Doosan Corporation",
-    "country": "Corea del Sud",
-    "sector": "Macchinari pesanti",
-    "involvement": "Gruppo industriale sudcoreano (macchine movimento terra) le cui attrezzature, vendute tramite concessionari israeliani, vengono impiegate per demolire abitazioni palestinesi e nella costruzione di insediamenti illegali.",
-    "source": "In vesti civili (Trasferimento), par. 3"
-  },
-  {
-    "name": "Drummond Company, Inc.",
+    "name": "Drummond Company Inc.",
     "country": "Stati Uniti",
-    "sector": "Estrazione mineraria (carbone)",
-    "involvement": "Società mineraria statunitense, principale fornitrice di carbone per le centrali elettriche israeliane; tramite sue controllate in Colombia, ha continuato a spedire carbone in Israele (15 carichi dal 2023) anche dopo lo stop ufficiale dell’export colombiano.",
-    "source": "Elettricità, gas e carburante, par. 2"
-  },
-  {
-    "name": "Dutch Christians for Israel",
-    "country": "Paesi Bassi",
-    "sector": "Organizzazione caritativa",
-    "involvement": "Organizzazione cristiana con sede nei Paesi Bassi che raccoglie fondi per sostenere colonie israeliane nei Territori Occupati, finanziando progetti a beneficio dei coloni.",
-    "source": "Fattori abilitanti (finanziamento), par. 9"
-  },
-  {
-    "name": "Elbit Systems Ltd.",
-    "country": "Israele",
-    "sector": "Industria bellica",
-    "involvement": "Azienda israeliana leader nel settore bellico privato, produttrice di droni e sistemi d’arma “combat-proven” utilizzati a Gaza e in Cisgiordania; strettamente integrata con l’esercito (personale nel Ministero della Difesa, Premio Difesa 2024) e in grado di trarre profitto dall’apartheid e dal genocidio in corso.",
-    "source": "Trasferimento, par. 3"
-  },
-  {
-    "name": "European Commission (Commissione Europea)",
-    "country": "Unione Europea",
-    "sector": "Istituzione pubblica",
-    "involvement": "Istituzione UE che, tramite il programma Horizon Europe, ha erogato oltre 2,12 miliardi di euro a entità israeliane (incl. il Ministero della Difesa) dal 2014, facilitando collaborazioni di ricerca che coinvolgono anche soggetti complici dell’apartheid e del genocidio.",
-    "source": "Produzione di conoscenza, par. 3"
-  },
-  {
-    "name": "FANUC Corporation",
-    "country": "Giappone",
-    "sector": "Robotica industriale",
-    "involvement": "Multinazionale giapponese di robotica industriale che fornisce macchinari robotizzati a produttori di armamenti israeliani (es. IAI, Elbit), automatizzando le linee di produzione belliche.",
-    "source": "Trasferimento, par. 6"
+    "sector": "Energia (estrazione carbone)",
+    "involvement": "Compagnia mineraria statunitense che, insieme alla svizzera Glencore, è il principale fornitore di carbone per la produzione elettrica in Israele. Il carbone estratto dalle sue miniere in Colombia viene spedito via mare (almeno 15 carichi recenti) verso Israele, garantendo carburante alle centrali elettriche israeliane. Drummond contribuisce così in modo determinante all’approvvigionamento energetico di Israele, che alimenta anche l’apparato militare e l’infrastruttura dell’occupazione",
+    "source": "Rapporto Albanese, paragrafo 2 (sezione Elettricità, gas e carburante, Sostituzione)"
   },
   {
     "name": "Glencore plc",
     "country": "Svizzera",
-    "sector": "Commodities (estrazione mineraria)",
-    "involvement": "Multinazionale svizzera delle materie prime, fra i principali fornitori di carbone per Israele; attraverso miniere in Colombia e spedizioni dal Sudafrica, ha assicurato circa il 15% dell’import di carbone israeliano nel 2023, alimentando le centrali anche durante l’assedio di Gaza.",
-    "source": "Elettricità, gas e carburante, par. 2"
+    "sector": "Energia (commercio materie prime)",
+    "involvement": "Società multinazionale delle materie prime che funge da altro principale fornitore di carbone per Israele. Tramite proprie controllate, Glencore possiede miniere di carbone e porti in Colombia da cui proviene gran parte del carbone bruciato nelle centrali israeliane. Coprendo una quota significativa (insieme a Drummond) del mix energetico di Israele, Glencore supporta indirettamente l’occupazione e la campagna militare fornendo l’energia con cui Israele alimenta la sua macchina bellica",
+    "source": "Rapporto Albanese, paragrafo 2 (sezione Elettricità, gas e carburante, Sostituzione)"
   },
   {
-    "name": "Government Pension Fund Global (GPFG)",
-    "country": "Norvegia",
-    "sector": "Fondo sovrano",
-    "involvement": "Fondo sovrano norvegese che ha incrementato del 32% gli investimenti in società israeliane dopo ottobre 2023 (fino a 1,9 mld $), detenendo a fine 2024 circa 121,5 mld $ (6,9% del portafoglio) in aziende citate nel rapporto, finanziando indirettamente l’apparato dell’occupazione.",
-    "source": "Fattori abilitanti (finanziamento), par. 5"
-  },
-  {
-    "name": "Hanson Israel",
+    "name": "Paz Oil (Paz Retail and Energy Ltd)",
     "country": "Israele",
-    "sector": "Materiali da costruzione",
-    "involvement": "Società israeliana controllata dalla tedesca Heidelberg Materials; gestisce la cava di Nahal Raba in Cisgiordania, da cui ha estratto milioni di tonnellate di pietra dolomitica su terra palestinese confiscata per rifornire di materiali i cantieri delle colonie.",
-    "source": "Sostituzione, par. 2"
+    "sector": "Energia (raffinazione e distribuzione carburante)",
+    "involvement": "Gruppo energetico israeliano proprietario della raffineria di Ashdod e di una vasta rete di stazioni di servizio. La raffineria Paz di Ashdod fornisce carburante all’aeronautica militare israeliana impiegata nei bombardamenti su Gaza. Le sue pompe di benzina riforniscono sia Israele che le colonie nei TPO, garantendo che l’esercito e i coloni abbiano approvvigionamento costante di carburante. Paz è inserita nel database ONU per il suo ruolo nel supportare l’economia degli insediamenti tramite la distribuzione di carburante",
+    "source": "Rapporto Albanese, paragrafo 4 (sezione Elettricità, gas e carburante, Sostituzione)"
   },
   {
-    "name": "HD Hyundai (Hyundai Heavy Industries)",
-    "country": "Corea del Sud",
-    "sector": "Macchinari pesanti",
-    "involvement": "Colosso industriale sudcoreano (ex Hyundai Heavy Industries); i suoi escavatori e mezzi pesanti sono impiegati da anni per demolire case palestinesi e, dopo ottobre 2023, sono stati massicciamente utilizzati per radere al suolo interi quartieri a Gaza.",
-    "source": "In vesti civili (Trasferimento), par. 3"
+    "name": "Booking Holdings Inc.",
+    "country": "Stati Uniti (Paesi Bassi per Booking.com)",
+    "sector": "Turismo",
+    "involvement": "Multinazionale delle prenotazioni viaggi (Booking.com) che promuove alloggi turistici negli insediamenti israeliani. Booking.com elenca decine di proprietà situate nelle colonie della Cisgiordania e a Gerusalemme Est (salite da 26 nel 2018 a 70 nel 2023), traendone commissioni fino al 23%. Così facendo, normalizza le colonie come destinazioni turistiche “legittime” e alimenta economicamente l’impresa di insediamento, in violazione del diritto internazionale",
+    "source": "Rapporto Albanese, paragrafo 2 (sezione Turismo di occupazione)"
   },
   {
-    "name": "Heidelberg Materials AG",
-    "country": "Germania",
-    "sector": "Materiali da costruzione",
-    "involvement": "Azienda tedesca di materiali da costruzione che, tramite la controllata Hanson Israel, sfrutta risorse naturali occupate (cave in Cisgiordania) e fornisce materiali per la costruzione di infrastrutture e insediamenti illegali israeliani.",
-    "source": "Sostituzione, par. 2"
-  },
-  {
-    "name": "Home in Israel (KW franchise)",
-    "country": "Israele",
-    "sector": "Immobiliare",
-    "involvement": "Franchising immobiliare (affiliato Keller Williams) che nel 2024 ha organizzato roadshow in USA e Canada per vendere immobili nelle colonie, co-sponsorizzato da società edili che sviluppano migliaia di appartamenti negli insediamenti.",
-    "source": "Sostituzione, par. 4"
-  },
-  {
-    "name": "Israel Aerospace Industries (IAI)",
-    "country": "Israele",
-    "sector": "Industria aerospaziale e difesa",
-    "involvement": "Azienda aerospaziale statale israeliana, tra i primi 50 produttori di armi al mondo; fornisce droni, missili e sistemi bellici all’esercito israeliano e collabora in programmi militari internazionali (es. sviluppo congiunto del caccia F-35).",
-    "source": "Trasferimento, par. 3"
-  },
-  {
-    "name": "Israel Gives",
-    "country": "Israele",
-    "sector": "Piattaforma di crowdfunding",
-    "involvement": "Piattaforma di crowdfunding israeliana che consente donazioni internazionali deducibili fiscalmente a favore di unità militari israeliane e comunità di coloni, facilitando il finanziamento dall’estero dell’occupazione e delle colonie.",
-    "source": "Fattori abilitanti (finanziamento), par. 9"
-  },
-  {
-    "name": "Israel Ministry of Defense (IMOD)",
-    "country": "Israele",
-    "sector": "Istituzione governativa",
-    "involvement": "Ministero della Difesa israeliano, unico ente militare straniero a finanziare direttamente ricerca al MIT; beneficia inoltre di fondi UE Horizon per progetti congiunti, indirizzando conoscenze accademiche verso lo sviluppo di tecnologie militari impiegate contro i palestinesi.",
-    "source": "Produzione di conoscenza, par. 2"
-  },
-  {
-    "name": "Jewish National Fund (KKL-JNF)",
-    "country": "Israele",
-    "sector": "Organizzazione non-profit",
-    "involvement": "Fondo Nazionale Ebraico (KKL) e relative affiliate che finanziano l’espansione coloniale e progetti legati all’esercito nei Territori Occupati, mascherando spesso tali attività come iniziative ambientali o di sviluppo.",
-    "source": "Fattori abilitanti (finanziamento), par. 9"
-  },
-  {
-    "name": "Keller Williams Realty, Inc.",
+    "name": "Airbnb Inc.",
     "country": "Stati Uniti",
-    "sector": "Immobiliare",
-    "involvement": "Società immobiliare statunitense il cui franchise israeliano (KW Israel) ha aperto agenzie nelle colonie e promuove la vendita di proprietà immobiliari in insediamenti illegali a clienti israeliani e internazionali.",
-    "source": "Sostituzione, par. 4"
+    "sector": "Turismo",
+    "involvement": "Piattaforma di affitti turistici che offre case e stanze nelle colonie israeliane. Dal 2016 al 2025 gli annunci Airbnb in insediamenti sono passati da 139 a oltre 350, generando profitti considerevoli. Airbnb aveva inizialmente annunciato la rimozione degli annunci nelle colonie nel 2018, ma ha poi invertito la decisione sotto pressione legale, limitandosi a devolvere in beneficenza i ricavi dagli insediamenti. Continuando ad operare nelle colonie, Airbnb legittima la loro esistenza e contribuisce al loro sostegno economico",
+    "source": "Rapporto Albanese, paragrafo 2-3 (sezione Turismo di occupazione)"
   },
   {
-    "name": "KW Israel",
-    "country": "Israele",
-    "sector": "Immobiliare",
-    "involvement": "Master franchising israeliano di Keller Williams Realty, con sedi operative nelle colonie, che facilita vendite e acquisti di immobili situati in insediamenti illegali.",
-    "source": "Sostituzione, par. 4"
-  },
-  {
-    "name": "Leonardo S.p.A.",
-    "country": "Italia",
-    "sector": "Industria aerospaziale e difesa",
-    "involvement": "Impresa italiana della difesa che fornisce componenti militari a Israele (ad esempio per i caccia F-35) ed è proprietaria di aziende hi-tech israeliane come RADA; ha beneficiato di ingenti finanziamenti bancari europei malgrado il suo ruolo nel conflitto.",
-    "source": "Trasferimento, par. 4"
-  },
-  {
-    "name": "Lockheed Martin Corporation",
+    "name": "BlackRock Inc.",
     "country": "Stati Uniti",
-    "sector": "Industria bellica",
-    "involvement": "Multinazionale americana degli armamenti, capofila del programma F-35 (aerei usati da Israele in modalità “beast” su Gaza) e fornitrice di caccia F-16 e bombe JDAM impiegate massicciamente nell’offensiva su Gaza.",
-    "source": "Trasferimento, par. 4"
+    "sector": "Finanza (gestione investimenti)",
+    "involvement": "Il più grande gestore patrimoniale mondiale, BlackRock (inclusa la sua controllata iShares) è tra i maggiori investitori istituzionali in numerose aziende chiave dell’occupazione e del genocidio israeliano. È il secondo maggiore investitore in società come Palantir (8,6%), Microsoft, Amazon, Alphabet e IBM (circa 6-8% ciascuna), ed è tra i primi anche in Lockheed Martin, Caterpillar ed Elbit Systems. Inoltre BlackRock (con i suoi ETF) ha investito decine di milioni di dollari nei titoli di stato israeliani emessi per finanziare l’assalto a Gaza. Attraverso questi investimenti, BlackRock fornisce capitale essenziale che sostiene l’industria bellica israeliana e l’economia delle colonie",
+    "source": "Rapporto Albanese, paragrafo 2-3 (fattore finanziario)"
   },
   {
-    "name": "Massachusetts Institute of Technology (MIT)",
+    "name": "The Vanguard Group",
     "country": "Stati Uniti",
-    "sector": "Università",
-    "involvement": "Prestigioso ateneo USA che collabora con le forze armate israeliane e l’industria bellica: laboratori MIT sviluppano tecnologie (es. sciami di droni, algoritmi di sorveglianza) finanziate dal Ministero della Difesa israeliano, e programmi industriali (come il Seed Fund Lockheed o l’adesione di Elbit) creano sinergie a beneficio dell’apparato militare israeliano.",
-    "source": "Produzione di conoscenza, par. 2"
+    "sector": "Finanza (gestione investimenti)",
+    "involvement": "Secondo colosso mondiale degli investimenti indicizzati, Vanguard è anch’esso pesantemente esposto in imprese legate all’occupazione. È il maggiore investitore istituzionale in Caterpillar (9,8%), Chevron (8,9%) e Palantir (9,1%), e il secondo maggiore in Lockheed Martin (9,5%) ed Elbit Systems. Vanguard, come BlackRock, detiene inoltre quote rilevanti nei titoli obbligazionari israeliani. In questo modo coinvolge indirettamente milioni di risparmiatori globali nel finanziamento dell’apartheid e della macchina bellica israeliana, alimentando l’economia del genocidio per mezzo della gestione passiva dei fondi",
+    "source": "Rapporto Albanese, paragrafo 3 (fattore finanziario)"
   },
   {
-    "name": "Mekorot",
-    "country": "Israele",
-    "sector": "Servizi idrici",
-    "involvement": "Compagnia idrica nazionale israeliana che detiene il monopolio dell’acqua nei Territori Occupati; fornisce acqua ai palestinesi a flusso ridotto e prezzo maggiorato (es. a Gaza ha erogato solo il 22% della portata dopo ottobre 2023), rendendo l’acqua uno strumento di coercizione e punizione collettiva.",
-    "source": "Acqua, par. 1"
-  },
-  {
-    "name": "Merkavim Transport Ltd.",
-    "country": "Israele",
-    "sector": "Veicoli per trasporto",
-    "involvement": "Ditta israeliana produttrice di autobus corazzati per le colonie; partner locale di Volvo (ne è licenziataria esclusiva in Israele) e citata nel database ONU per il coinvolgimento nel servizio di trasporto dedicato agli insediamenti.",
-    "source": "In vesti civili (Trasferimento), par. 3"
-  },
-  {
-    "name": "Microsoft Corporation",
-    "country": "Stati Uniti",
-    "sector": "Tecnologia (software e cloud)",
-    "involvement": "Colosso tecnologico USA che integra dal 2003 le proprie piattaforme software e cloud nelle infrastrutture informatiche militari israeliane; ha acquisito start-up israeliane di cybersicurezza e sorveglianza e, insieme ad Alphabet e Amazon, fornisce servizi cloud/AI (Azure) che potenziano l’analisi di big data e la capacità decisionale dell’esercito israeliano.",
-    "source": "Sorveglianza e carcerarietà, par. 4"
-  },
-  {
-    "name": "Netafim Ltd.",
-    "country": "Israele",
-    "sector": "Agrotecnologia (irrigazione)",
-    "involvement": "Azienda israeliana leader nell’irrigazione a goccia, sviluppata in linea con le esigenze espansionistiche israeliane; le sue tecnologie permettono un uso intensivo di acqua e terra nelle colonie (es. nella Valle del Giordano) mentre i contadini palestinesi, privati dell’acqua, vengono estromessi.",
-    "source": "Agroalimentare, par. 3"
-  },
-  {
-    "name": "NewMed Energy (Delek Group)",
-    "country": "Israele",
-    "sector": "Energia (gas naturale)",
-    "involvement": "Società energetica israeliana (gruppo Delek) partner di Chevron nell’estrazione del gas naturale dai giacimenti Leviathan e Tamar; alimenta in larga parte il consumo interno israeliano di gas e versa centinaia di milioni di dollari l’anno allo Stato di Israele in tasse e royalties.",
-    "source": "Elettricità, gas e carburante, par. 3"
-  },
-  {
-    "name": "NSO Group",
-    "country": "Israele",
-    "sector": "Cyber intelligence",
-    "involvement": "Azienda israeliana di cyber-intelligence fondata da ex membri dell’Unità 8200, nota per il software spia Pegasus usato per sorvegliare segretamente attivisti (inclusi palestinesi) e giornalisti, contribuendo alla repressione digitale.",
-    "source": "Sorveglianza e carcerarietà, par. 2"
-  },
-  {
-    "name": "Orbia Advance Corporation, SAB de CV",
-    "country": "Messico",
-    "sector": "Conglomerato industriale (chimica/plastica)",
-    "involvement": "Multinazionale messicana (ex Mexichem) proprietaria dell’80% di Netafim; attraverso Netafim, consente l’espansione globale di tecniche di irrigazione nate per sostenere l’agricoltura di colonie e kibbutz su terra palestinese, aggravando lo sfruttamento idrico nei Territori Occupati.",
-    "source": "Agroalimentare, par. 3"
-  },
-  {
-    "name": "Palantir Technologies Inc.",
-    "country": "Stati Uniti",
-    "sector": "Software e analisi dati",
-    "involvement": "Società USA di analisi dati che fornisce all’apparato di sicurezza israeliano piattaforme di polizia predittiva e intelligenza artificiale; ha intensificato il supporto all’esercito dopo ottobre 2023 (partnership strategica, consiglio a Tel Aviv) e i suoi dirigenti hanno pubblicamente avallato l’uso letale dei suoi strumenti contro i palestinesi (definendoli perlopiù ‘terroristi’).",
-    "source": "Sorveglianza e carcerarietà, par. 7"
-  },
-  {
-    "name": "Paz Retail and Energy Ltd.",
-    "country": "Israele",
-    "sector": "Energia (distribuzione carburanti)",
-    "involvement": "Compagnia petrolifera israeliana (inserita nel database ONU) la cui filiale rifornisce di carburante per aviazione l’aeronautica israeliana dalla raffineria di Ashdod, alimentando i jet impiegati nei bombardamenti su Gaza.",
-    "source": "Elettricità, gas e carburante, par. 4"
-  },
-  {
-    "name": "PIMCO (Allianz SE)",
+    "name": "PIMCO (Allianz)",
     "country": "Stati Uniti/Germania",
-    "sector": "Gestione di investimenti",
-    "involvement": "Società americana di gestione obbligazionaria (controllata da Allianz) che figura tra i principali acquirenti di titoli di Stato israeliani (con circa 960 milioni $ investiti) e detiene quote significative di aziende implicate nell’occupazione.",
-    "source": "Fattori abilitanti (finanziamento), par. 2"
+    "sector": "Finanza (gestione investimenti)",
+    "involvement": "Fondo obbligazionario globale (controllato dal gruppo Allianz) che figura tra i maggiori finanziatori dell’ultimo debito bellico israeliano. Nel 2023 PIMCO ha investito circa 960 milioni di dollari in bond governativi israeliani (emessi per sostenere la guerra contro Gaza), risultando tra i primi 400 investitori ad aver consentito a Israele di raccogliere fondi malgrado il downgrade. Attraverso le sue masse gestite, PIMCO convoglia il risparmio internazionale verso il finanziamento dell’occupazione e delle campagne militari israeliane",
+    "source": "Rapporto Albanese, paragrafo 2 (fattore finanziario)"
   },
   {
-    "name": "RADA Electronic Industries",
+    "name": "BNP Paribas",
+    "country": "Francia",
+    "sector": "Finanza (banca)",
+    "involvement": "Uno dei maggiori gruppi bancari al mondo, ha svolto un ruolo chiave nel supportare finanziariamente Israele durante l’offensiva su Gaza. Insieme ad altre banche, BNP Paribas è intervenuta sottoscrivendo ingenti quote dei buoni del tesoro speciali emessi da Israele tra il 2023 e il 2025, aumentando la fiducia del mercato e permettendo allo Stato israeliano di raccogliere miliardi di dollari a costi contenuti. Così BNP ha di fatto finanziato la devastazione di Gaza. Inoltre, BNP Paribas è tra i principali finanziatori europei dell’industria bellica israeliana, avendo erogato centinaia di milioni in prestiti a società come Leonardo che riforniscono l’esercito israeliano",
+    "source": "Rapporto Albanese, paragrafo 2 (fattore finanziario)"
+  },
+  {
+    "name": "Barclays",
+    "country": "Regno Unito",
+    "sector": "Finanza (banca)",
+    "involvement": "Storico istituto bancario britannico, è stato anch’esso tra gli istituti che hanno sottoscritto i titoli di stato emessi da Israele per finanziare l’esercito nel conflitto del 2023-2024. Barclays ha contribuito a garantire il successo di queste emissioni, fornendo liquidità e credibilità ai bond israeliani utilizzati per sostenere la macchina di guerra contro i palestinesi. La banca, dunque, attraverso queste operazioni sul debito pubblico e altri servizi finanziari, si è resa partecipe indiretta dell’occupazione e dell’assalto a Gaza",
+    "source": "Rapporto Albanese, paragrafo 2 (fattore finanziario)"
+  },
+  {
+    "name": "Bank Hapoalim",
     "country": "Israele",
-    "sector": "Elettronica militare",
-    "involvement": "Azienda israeliana di elettronica militare (ora parte di Leonardo) che ha collaborato, assieme a IAI ed Elbit, alla conversione dei bulldozer Caterpillar in veicoli militari telecomandati, fornendo sistemi radar e componenti elettronici per l’esercito israeliano.",
-    "source": "In vesti civili (Trasferimento), par. 2"
+    "sector": "Finanza (banca)",
+    "involvement": "Principale banca commerciale israeliana, inserita nel database ONU per il suo coinvolgimento nelle attività delle colonie. Bank Hapoalim finanzia la costruzione e l’espansione degli insediamenti concedendo mutui e prestiti ai costruttori e ai residenti nelle colonie. Inoltre supporta le municipalità degli insediamenti e finanzia aziende attive nei territori occupati. Attraverso questi servizi, la banca facilita l’ulteriore insediamento di popolazione israeliana in terra palestinese e trae profitto dalla crescita economica illegale nelle colonie",
+    "source": "Database ONU dei commerci nei insediamenti (A/HRC/43/71) e menzionata nel Rapporto Albanese, sezione fattore finanziario"
   },
   {
-    "name": "Technical University of Munich (TUM)",
+    "name": "Bank Leumi",
+    "country": "Israele",
+    "sector": "Finanza (banca)",
+    "involvement": "Secondo maggiore istituto bancario israeliano, figura anch’esso nel database ONU per il suo ruolo di sostegno economico all’impresa coloniale. Bank Leumi fornisce servizi finanziari e investimenti alle imprese di costruzione attive negli insediamenti, finanzia progetti immobiliari nei territori occupati e offre mutui agevolati ai coloni. Inoltre, la banca collabora al collocamento di titoli pubblici e obbligazioni locali che finanziano infrastrutture nelle colonie. In tal modo Bank Leumi contribuisce alla stabilità finanziaria e allo sviluppo delle colonie, normalizzandone l’esistenza",
+    "source": "Database ONU (A/HRC/43/71) – coinvolta come da Rapporto Albanese, fattore finanziario"
+  },
+  {
+    "name": "Israel Discount Bank",
+    "country": "Israele",
+    "sector": "Finanza (banca)",
+    "involvement": "Uno dei principali gruppi bancari israeliani, incluso nel database ONU per complicità nelle colonie. Discount Bank estende linee di credito e servizi alle autorità locali e alle imprese operanti negli insediamenti e finanzia progetti di infrastrutture nei TPO (come zone industriali e reti commerciali nelle colonie). La banca gestisce anche conti e transazioni per enti pubblici dell’occupazione. Tale supporto finanziario permette la continuità e l’espansione dell’economia delle colonie, rendendo la banca corresponsabile nel mantenimento dell’occupazione illegale",
+    "source": "Database ONU (A/HRC/43/71) – menzionata indirettamente nel Rapporto Albanese"
+  },
+  {
+    "name": "Mizrahi Tefahot Bank",
+    "country": "Israele",
+    "sector": "Finanza (banca)",
+    "involvement": "Quarto maggiore istituto bancario in Israele, noto per l’ampia attività nel settore mutui. Mizrahi Tefahot è segnalata per aver finanziato con mutui e prestiti l’acquisto di case in insediamenti come Modi’in Illit e Ma’ale Adumim, sostenendo così la crescita residenziale nelle colonie. La banca finanzia inoltre imprese di costruzioni e progetti infrastrutturali nelle aree occupate. Fornendo capitale ai coloni e alle loro comunità, Mizrahi facilita la sostituzione demografica e la permanenza di Israele su terra palestinese",
+    "source": "Database ONU (A/HRC/43/71)"
+  },
+  {
+    "name": "First International Bank of Israel",
+    "country": "Israele",
+    "sector": "Finanza (banca)",
+    "involvement": "Inclusa nel database ONU sulle imprese legate agli insediamenti, questa banca israeliana offre servizi finanziari a imprese e autorità pubbliche attive nei territori occupati. Ha partecipato al finanziamento di progetti nelle colonie e gestisce il capitale di molti clienti nelle comunità di coloni. Le sue controllate hanno filiali operative oltre la Linea Verde. Così, FIBI garantisce supporto bancario all’economia parallela delle colonie, contribuendo a mantenere l’occupazione economicamente sostenibile",
+    "source": "Database ONU (A/HRC/43/71)"
+  },
+  {
+    "name": "AXA S.A.",
+    "country": "Francia",
+    "sector": "Finanza (assicurazioni)",
+    "involvement": "Gruppo assicurativo e di investimento francese che fino a poco tempo fa deteneva partecipazioni in società coinvolte nell’occupazione. Attraverso i suoi fondi d’investimento, AXA è stata azionista di cinque principali banche israeliane legate alle colonie e della ditta bellica Elbit Systems. In seguito a pressioni della società civile, AXA ha annunciato il disinvestimento da Elbit e dagli istituti di credito israeliani implicati. Prima di questo passo, i capitali gestiti da AXA sostenevano indirettamente l’espansione delle colonie e la produzione di armamenti usati contro i civili palestinesi",
+    "source": "Rapporto Albanese, paragrafo 3 (fattore finanziario) – caso di disinvestimento (nota 410)"
+  },
+  {
+    "name": "KLP (Kommunal Landspensjonskasse)",
+    "country": "Norvegia",
+    "sector": "Finanza (fondo pensione)",
+    "involvement": "Il maggiore fondo pensionistico norvegese, gestore di investimenti pubblici locali. KLP, dopo un riesame etico, ha disinvestito nel 2021 dalle aziende coinvolte nelle violazioni nei TPO, in particolare cessando gli investimenti in Caterpillar a causa dell’uso dei bulldozer nelle demolizioni di case palestinesi. Questo passo segue una politica di esclusione di società legate agli insediamenti e all’industria bellica israeliana. In precedenza KLP aveva quote in Caterpillar e altre imprese complici, e il suo disinvestimento segnala il riconoscimento del ruolo di tali imprese nel sostenere l’occupazione",
+    "source": "Rapporto Albanese, paragrafo 3 (fattore finanziario) – esempio di disinvestimento (nota 408)"
+  },
+  {
+    "name": "Irish Strategic Investment Fund (ISIF)",
+    "country": "Irlanda",
+    "sector": "Finanza (fondo sovrano)",
+    "involvement": "Fondo sovrano irlandese (gestito da NTMA) che, in ottemperanza alle linee guida etiche del governo, nel 2023 ha disinvestito da sei aziende israeliane coinvolte nelle violazioni nei territori palestinesi occupati. Tra queste figurano imprese presenti nel database ONU (attive negli insediamenti e nell’industria bellica). Con questa decisione – unica nel suo genere in ambito statale occidentale – l’ISIF ha riconosciuto formalmente l’illegalità delle attività economiche nelle colonie, ritirando così i capitali pubblici irlandesi dal sostegno, anche indiretto, all’occupazione israeliana",
+    "source": "Rapporto Albanese, paragrafo 3 (fattore finanziario) – esempio di disinvestimento (nota 409)"
+  },
+  {
+    "name": "Veolia Environnement",
+    "country": "Francia",
+    "sector": "Servizi (acqua e rifiuti, trasporti)",
+    "involvement": "Multinazionale francese che per anni è stata attiva nei territori occupati attraverso filiali: gestiva discariche di rifiuti israeliane in Cisgiordania, impianti di depurazione e, tramite la controllata Veolia Transport, partecipava al consorzio della tramvia di Gerusalemme che collega colonie illegali. La presenza di Veolia ha facilitato infrastrutture chiave dell’occupazione. A causa di campagne internazionali di boicottaggio, Veolia si è gradualmente ritirata: nel 2015 ha ceduto le sue attività in Israele e TPO, abbandonando completamente il mercato israeliano entro il 2016",
+    "source": "Rapporto Albanese, paragrafo 3 (fattore finanziario) – aziende che hanno ritirato attività (nota 411)"
+  },
+  {
+    "name": "CRH plc",
+    "country": "Irlanda",
+    "sector": "Materiali da costruzione",
+    "involvement": "Colosso irlandese del cemento e costruzioni, in passato azionista di una delle principali cementerie israeliane (Nesher Cement) che forniva cemento a colonie e Muro di separazione. CRH ha tratto profitti indiretti dalla fornitura di materiali per infrastrutture di occupazione. Sotto la pressione di azionisti etici e attivisti, CRH ha venduto la sua partecipazione e nel 2016 si è completamente disimpegnata dal mercato israeliano. Fino ad allora, attraverso Nesher e altre controllate, aveva contribuito alla costruzione di insediamenti, strade segregate e il muro dell’apartheid in Cisgiordania",
+    "source": "Rapporto Albanese, paragrafo 3 (fattore finanziario) – aziende ritiratesi (nota 412)"
+  },
+  {
+    "name": "General Mills",
+    "country": "Stati Uniti",
+    "sector": "Alimentare",
+    "involvement": "Multinazionale agroalimentare statunitense. Tramite una sua controllata, General Mills ha operato per anni uno stabilimento nella zona industriale di Atarot (Gerusalemme Est occupata), producendo prodotti da forno (marchio Pillsbury) su terra palestinese espropriata. Ciò l’ha resa parte dell’economia coloniale. Dopo campagne della società civile, nel 2022 General Mills ha annunciato la cessione della sua partecipazione nell’impianto e l’uscita totale dal mercato israeliano, riconoscendo implicitamente i rischi reputazionali legati al suo coinvolgimento negli insediamenti illegali",
+    "source": "Rapporto Albanese, paragrafo 3 (fattore finanziario) – aziende ritiratesi (nota 413)"
+  },
+  {
+    "name": "G4S plc",
+    "country": "Regno Unito",
+    "sector": "Servizi di sicurezza privata",
+    "involvement": "Azienda di sicurezza privata che per oltre un decennio ha fornito servizi e attrezzature all’apparato carcerario e di occupazione israeliano. G4S gestiva attraverso la filiale locale i sistemi di sicurezza di prigioni israeliane (dove sono detenuti prigionieri politici palestinesi), i checkpoint ai confini e attrezzava i centri di detenzione. Era inoltre attiva nella protezione di insediamenti. Dopo intense campagne di boicottaggio, G4S ha venduto nel 2016 la sua filiale israeliana (che gestiva queste attività) e ha progressivamente dismesso i contratti con Israele. Fino ad allora, i suoi servizi avevano rafforzato la repressione carceraria e il sistema di apartheid nei TPO",
+    "source": "Rapporto Albanese, paragrafo 3 (fattore finanziario) – aziende ritiratesi (nota 414)"
+  },
+  {
+    "name": "Yokohama Rubber Co.",
+    "country": "Giappone",
+    "sector": "Manifattura (pneumatici)",
+    "involvement": "Produttore giapponese di pneumatici che è diventato proprietario, tramite acquisizione, di un impianto produttivo situato nella zona industriale di un insediamento in Cisgiordania (Atarot). Yokohama ha beneficiato della manodopera e del regime fiscale privilegiato degli insediamenti. In seguito a pressioni e alla contrazione del mercato, Yokohama/Alliance Tire ha chiuso quello stabilimento e si è ritirata dal mercato nei territori occupati. La sua presenza aveva rappresentato un esempio di come aziende multinazionali approfittassero dell’occupazione per ridurre costi, a scapito dei diritti dei palestinesi",
+    "source": "Rapporto Albanese, paragrafo 3 (fattore finanziario) – aziende ritiratesi (nota 415)"
+  },
+  {
+    "name": "Pret a Manger",
+    "country": "Regno Unito",
+    "sector": "Ristorazione",
+    "involvement": "Catena britannica di caffetterie e sandwich che aveva pianificato di espandersi in Israele. Dopo l’ottobre 2023, anche in risposta al clima di opinione, Pret a Manger ha deciso di annullare il suo ingresso nel mercato israeliano e ha ritirato ogni progetto di apertura di punti vendita. Questa scelta è stata accolta come un atto di disassociazione dal contesto di occupazione e apartheid. Sebbene Pret a Manger non fosse ancora operativa nei TPO, la sua rinuncia rappresenta un segnale di rifiuto di trarre profitto da un’economia che viola i diritti umani",
+    "source": "Rapporto Albanese, paragrafo 3 (fattore finanziario) – aziende ritiratesi (nota 416)"
+  },
+  {
+    "name": "Ben & Jerry’s",
+    "country": "Stati Uniti",
+    "sector": "Alimentare (gelati)",
+    "involvement": "Azienda di gelati nota per l’impegno sociale, controllata da Unilever. Nel 2021 il consiglio indipendente di Ben & Jerry’s ha deciso di cessare la vendita dei propri prodotti nelle colonie israeliane, definendo incompatibile con i propri valori operare su territori occupati illegalmente. Nel 2022 però la casa madre Unilever ha aggirato la decisione vendendo il marchio in Israele a un licenziatario locale, che ha continuato a distribuire i gelati negli insediamenti. Ben & Jerry’s ha intrapreso azioni legali contro Unilever per impedire questa pratica, ma al 2025 continua la disputa. Il caso illustra le pressioni economiche per mantenere attività nelle colonie e gli sforzi di un’azienda etica di non essere complice dell’apartheid",
+    "source": "Rapporto Albanese, paragrafo 3 (fattore finanziario) – es. azienda cerca di ritirarsi (nota 417)"
+  },
+  {
+    "name": "Unilever",
+    "country": "Regno Unito",
+    "sector": "Beni di consumo",
+    "involvement": "Conglomerato multinazionale proprietario di Ben & Jerry’s. Nonostante la volontà del suo marchio di cessare le vendite nei Territori Occupati, Unilever ha preso provvedimenti per continuare a trarre profitto dalle colonie: ha trasferito la licenza commerciale di Ben & Jerry’s in Israele a un distributore locale, permettendo la continua vendita di gelati nelle colonie. In questo modo Unilever ha anteposto il profitto al rispetto del diritto internazionale, contribuendo a normalizzare l’occupazione. L’azienda, dunque, svolge un ruolo diretto nel mantenere un’attività economica nelle colonie e nel frustrare un’iniziativa di disimpegno etico",
+    "source": "Rapporto Albanese, paragrafo 3 (fattore finanziario) – es. interferenza su Ben&Jerry’s (nota 417)"
+  },
+  {
+    "name": "Adidas",
     "country": "Germania",
-    "sector": "Università",
-    "involvement": "Università tedesca coinvolta in decine di progetti UE Horizon con partner israeliani, anche militari: riceve finanziamenti per collaborazioni con aziende belliche (es. IAI per il rifornimento a idrogeno dei droni) e con filiali locali di multinazionali (IBM Israele) su cloud e IA, contribuendo indirettamente al potenziamento tecnologico israeliano.",
-    "source": "Produzione di conoscenza, par. 3"
+    "sector": "Abbigliamento sportivo",
+    "involvement": "Azienda leader nell’abbigliamento sportivo che fino al 2018 è stata sponsor ufficiale dell’Associazione Calcistica Israeliana (IFA). Tale sponsorizzazione includeva squadre con sede nelle colonie della Cisgiordania, contribuendo a conferire un’aura di normalità internazionale agli insediamenti. In seguito a campagne di advocacy (che denunciavano la violazione da parte di IFA delle regole FIFA ospitando squadre nei territori occupati), Adidas ha interrotto la sponsorizzazione. Prima del ritiro, tramite il suo marchio, Adidas ha indirettamente supportato l’economia e la visibilità delle colonie nello sport",
+    "source": "Rapporto Albanese, paragrafo 4 (fattore finanziario) – settore sportivo (nota 418)"
+  },
+  {
+    "name": "PUMA SE",
+    "country": "Germania",
+    "sector": "Abbigliamento sportivo",
+    "involvement": "Azienda tedesca di articoli sportivi che fino al 2021-2022 ha sponsorizzato l’Associazione Calcistica di Israele, succedendo ad Adidas. La sponsorizzazione di PUMA ha fornito sostegno finanziario e prestigio al calcio israeliano, nonostante la presenza di club di colonie nei campionati. Dopo forti pressioni globali della campagna “Boycott PUMA” (in cui attivisti evidenziavano il ruolo di PUMA nel coprire le squadre degli insediamenti), l’azienda ha deciso di non rinnovare la sponsorizzazione con IFA. Il caso PUMA dimostra come sponsorizzazioni sportive possano implicare complicità nella normalizzazione dell’occupazione",
+    "source": "Rapporto Albanese, paragrafo 4 (fattore finanziario) – settore sportivo (nota 418)"
+  },
+  {
+    "name": "Erreà",
+    "country": "Italia",
+    "sector": "Abbigliamento sportivo",
+    "involvement": "Produttore italiano di abbigliamento tecnico sportivo, forniva materiale e sponsorizzazioni in ambito calcistico israeliano. Anche Erreà ha concluso il rapporto di sponsorizzazione con l’Associazione Calcistica Israeliana, unendosi ad Adidas e PUMA nell’interrompere il sostegno. La decisione è avvenuta nel contesto di una crescente attenzione sulle violazioni commesse nelle leghe calcistiche israeliane che includono squadre delle colonie. Ritirando la sua sponsorizzazione, Erreà ha cessato di essere associata al sistema sportivo che involontariamente legittimava l’occupazione",
+    "source": "Rapporto Albanese, paragrafo 4 (fattore finanziario) – settore sportivo (nota 418)"
+  },
+  {
+    "name": "Keller Williams Realty",
+    "country": "Stati Uniti",
+    "sector": "Immobiliare",
+    "involvement": "Gruppo immobiliare globale che, tramite il franchise israeliano KW Israel, opera nel mercato delle colonie. KW Israel ha aperto filiali in insediamenti come Ma’ale Adumim, vendendo proprietà in quelle aree a clienti israeliani e stranieri. Nel marzo 2024 un altro franchise (Home in Israel) legato a Keller Williams ha condotto un roadshow promozionale in USA e Canada per proporre investimenti immobiliari nelle colonie, evento sponsorizzato da diverse società edili operanti negli insediamenti. In tal modo Keller Williams ha attivamente commercializzato case costruite su terra palestinese occupata, traendo profitto dalla colonizzazione e internazionalizzando il mercato illegale delle colonie",
+    "source": "Rapporto Albanese, paragrafo 4 (Una casa su una terra rubata, sezione B. Sostituzione)"
   },
   {
     "name": "Tnuva",
     "country": "Israele",
-    "sector": "Agroalimentare",
-    "involvement": "Principale azienda agroalimentare israeliana (latticini), che ha prosperato grazie alla colonizzazione agricola; fornisce prodotti derivanti da terre espropriate e colonie, dominando il mercato a scapito dei produttori palestinesi (l’industria casearia di Gaza fu distrutta nel 2014, aumentando la dipendenza palestinese da Tnuva del 160% in dieci anni).",
-    "source": "Agroalimentare, par. 2"
+    "sector": "Industria alimentare (latticini e agroalimentare)",
+    "involvement": "La maggiore azienda alimentare israeliana, dominante nel settore lattiero-caseario. Tnuva assicura l’autosufficienza alimentare di Israele, anche grazie allo sfruttamento intensivo di terra e risorse idriche (compresa acqua sottratta ai palestinesi). Opera fattorie e stabilimenti in insediamenti agricoli nella Valle del Giordano e altrove. Il presidente di Tnuva ha ammesso che l’agricoltura e l’allevamento israeliani dipendono in larga parte dalla disponibilità di terra nei territori occupati. Così Tnuva trae vantaggio economico dall’appropriazione di terre palestinesi fertile e contribuisce al sistema che genera insicurezza alimentare per la popolazione indigena",
+    "source": "Rapporto Albanese, paragrafo 1 (sezione Agricoltura, Sostituzione) [dichiarazione presidente Tnuva]"
   },
   {
-    "name": "Unit 8200",
+    "name": "Netafim",
     "country": "Israele",
-    "sector": "Unità d’intelligence militare",
-    "involvement": "Unità d’élite dell’intelligence militare israeliana specializzata in cyber-sorveglianza; costituisce una fucina di start-up e tecnologie repressive (molti ex membri fondano aziende come NSO) ed è complice nella raccolta massiva di dati sui palestinesi.",
-    "source": "Sorveglianza e carcerarietà, par. 2"
+    "sector": "Agri-tech (irrigazione)",
+    "involvement": "Azienda israeliana leader mondiale nelle soluzioni di micro-irrigazione a goccia. Netafim fornisce tecnologia e impianti irrigui avanzati che hanno permesso all’agricoltura delle colonie e di Israele di massimizzare la produzione agricola sfruttando risorse idriche sottratte ai palestinesi. Presentandosi come sostenibile, Netafim in realtà perfeziona e applica tecniche di sfruttamento idrico coloniale: il suo sistema ha contribuito a prosciugare il fiume Giordano e il Mar Morto a detrimento delle comunità locali palestinesi. Continuando a vendere i suoi impianti in tutto il mondo (inclusi progetti pilota in paesi aridi), Netafim capitalizza sul know-how sviluppato in un contesto di occupazione e apartheid idrico",
+    "source": "Rapporto Albanese, paragrafo 4 (sezione Agricoltura, Sostituzione)"
+  },
+  {
+    "name": "Bezeq",
+    "country": "Israele",
+    "sector": "Telecomunicazioni",
+    "involvement": "Principale operatore telefonico e internet israeliano. Bezeq fornisce servizi di rete (linee telefoniche, infrastrutture internet) estesi anche agli insediamenti israeliani in Cisgiordania e a Gerusalemme Est, senza distinguere tra territorio sovrano e occupato. Installando antenne, cavi e centrali nelle colonie e assicurando ai coloni comunicazioni equivalenti a quelle in Israele, Bezeq consolida l’integrazione delle colonie nello Stato e trae profitto dagli abbonati residenti nei territori occupati. La sua attività, considerata nel database ONU, implica la normalizzazione dell’annessione tecnologica delle colonie",
+    "source": "Database ONU (A/HRC/43/71) – imprese di telecomunicazione"
+  },
+  {
+    "name": "Cellcom",
+    "country": "Israele",
+    "sector": "Telecomunicazioni",
+    "involvement": "Compagnia di telefonia mobile israeliana. Cellcom estende la propria copertura e i suoi servizi mobili anche alle colonie della Cisgiordania. Ha installato torri cellulari su terra occupata e offre piani telefonici ai coloni, sfruttando frequenze assegnate unilateralmente da Israele nelle aree occupate. Così i coloni dispongono di rete mobile 4G mentre alle compagnie palestinesi è spesso negato l’accesso a pari spettro radio. Cellcom quindi beneficia commercialmente dell’asimmetria normativa dell’occupazione e contribuisce a integrare le colonie nell’infrastruttura nazionale israeliana",
+    "source": "Database ONU (A/HRC/43/71)"
+  },
+  {
+    "name": "Partner Communications (ex Orange Israel)",
+    "country": "Israele",
+    "sector": "Telecomunicazioni",
+    "involvement": "Operatore di telefonia mobile che, similmente a Cellcom, serve anche la popolazione delle colonie in Cisgiordania. Partner (già affiliata al brand Orange) gestisce ripetitori nei TPO e offre copertura cellulare ai coloni, spesso su terreni requisiti. Nel 2015 una controversia internazionale portò Orange a sciogliere il legame con Partner a causa dell’uso del marchio nelle colonie. Ciò nonostante, Partner continua le operazioni, assicurando ai coloni servizi di telecomunicazione avanzati e ricavando utili dal mercato degli insediamenti. Le sue attività rappresentano un sostegno infrastrutturale diretto al progetto coloniale",
+    "source": "Database ONU (A/HRC/43/71)"
+  },
+  {
+    "name": "Dor Alon",
+    "country": "Israele",
+    "sector": "Energia (distribuzione carburanti)",
+    "involvement": "Compagnia israeliana di distribuzione carburanti che gestisce stazioni di servizio, inclusi punti vendita nelle colonie in Cisgiordania. Dor Alon rifornisce di benzina e diesel sia i coloni che, in certi casi, l’esercito nelle aree occupate. È elencata nel database ONU per l’attività delle sue stazioni nelle colonie, ad esempio nel blocco di insediamenti di Gush Etzion. Garantendo carburante alle comunità di coloni, Dor Alon sostiene la loro economia e mobilità, e trae profitto dall’occupazione prolungata",
+    "source": "Database ONU (A/HRC/43/71)"
+  },
+  {
+    "name": "Meir Group (Mayer’s Cars & Trucks)",
+    "country": "Israele",
+    "sector": "Automotive (distribuzione veicoli)",
+    "involvement": "Importatore ufficiale in Israele di marchi come Volvo. Il Gruppo Mayer fornisce escavatori, camion e autobus Volvo ad enti e aziende anche operanti nei territori occupati. In particolare, attraverso contratti governativi e forniture a imprese edili, i mezzi Volvo distribuiti da Meir sono impiegati in progetti infrastrutturali nelle colonie (come strade e trasporti pubblici). Ad esempio, Meir è partner commerciale in progetti come la metropolitana leggera di Gerusalemme Est. Come concessionario esclusivo, Meir ricopre un ruolo cruciale nel rendere disponibili macchinari stranieri per l’impresa coloniale, ed è perciò incluso tra le entità compiacenti nel database ONU",
+    "source": "Rapporto Albanese, paragrafo 3 (Una casa su una terra rubata, sezione B. Sostituzione) [nota 155]"
+  },
+  {
+    "name": "JCB (J.C. Bamford Excavators Ltd)",
+    "country": "Regno Unito",
+    "sector": "Macchinari edili",
+    "involvement": "Produttore britannico di escavatori e mezzi pesanti da costruzione. Le macchine JCB, vendute tramite distributori locali, sono state ampiamente utilizzate dalle autorità israeliane per demolire case palestinesi e strutture nei territori occupati. Ad esempio, i bulldozer JCB hanno partecipato alle demolizioni di comunità beduine come Khan al-Ahmar. Nonostante gli appelli di organizzazioni per i diritti umani, JCB ha continuato a fornire i propri mezzi al mercato israeliano, risultando inserita in elenchi di responsabilità sociale come azienda complice della distruzione di proprietà palestinesi e dello sfollamento forzato",
+    "source": "Segnalazioni ONG (Amnesty, HRW) e database di WhoProfits – menzionata implicitamente nel contesto macchinari edili usati per demolizioni"
+  },
+  {
+    "name": "Africa Israel Investments",
+    "country": "Israele",
+    "sector": "Immobiliare e costruzioni",
+    "involvement": "Holding israeliana (di proprietà di Lev Leviev) che attraverso le sue controllate è stata fortemente coinvolta nella costruzione di insediamenti. La consociata Africa Israel Housing (oggi AFI Properties) e l’impresa edile Danya Cebus hanno edificato centinaia di unità abitative in colonie come Ma’ale Adumim, Har Homa e Ariel, nonché parti della barriera di separazione. Inserita nel database ONU, l’azienda ha beneficiato delle commesse governative nelle colonie e ha svolto un ruolo significativo nell’espansione fisica dell’occupazione. In seguito a pressioni internazionali, il proprietario annunciò nel 2010 una moratoria su nuovi progetti nei TPO, ma l’azienda rimane simbolo degli interessi immobiliari che prosperano sull’occupazione",
+    "source": "Database ONU (A/HRC/43/71)"
+  },
+  {
+    "name": "Danya Cebus",
+    "country": "Israele",
+    "sector": "Costruzioni",
+    "involvement": "Importante impresa edile israeliana (ex sussidiaria di Africa Israel) che ha costruito estensivamente all’interno degli insediamenti. Danya Cebus ha realizzato progetti residenziali e infrastrutture in colonie come Modi’in Illit, Ma’ale Adumim e Betar Illit, e ha partecipato anche alla costruzione di segmenti del Muro di separazione. L’azienda figura nel database ONU per il suo ruolo diretto nell’espansione fisica delle colonie e nella cementificazione dell’occupazione. Attraverso tali attività, Danya Cebus ha tratto profitti dall’edilizia su terra confiscata e ha contribuito a consolidare la presenza israeliana permanente nei TPO",
+    "source": "Database ONU (A/HRC/43/71)"
+  },
+  {
+    "name": "Ashtrom Group",
+    "country": "Israele",
+    "sector": "Costruzioni e infrastrutture",
+    "involvement": "Conglomerato israeliano delle costruzioni coinvolto in vari progetti nei territori occupati. Ashtrom ha partecipato alla costruzione di quartieri in insediamenti (ad es. a Gerusalemme Est) e ha avuto appalti per infrastrutture stradali destinate a collegare avamposti agricoli a Israele. Ha inoltre investimenti in impianti solari nelle colonie. Ashtrom è stata inclusa nel database ONU per queste attività. Fornendo manodopera e capitali a tali progetti, Ashtrom contribuisce materialmente alla crescita delle colonie e al rafforzamento dell’annessione di fatto",
+    "source": "Database ONU (A/HRC/43/71)"
+  },
+  {
+    "name": "Electra Ltd",
+    "country": "Israele",
+    "sector": "Costruzioni e ingegneria",
+    "involvement": "Società di ingegneria israeliana attiva in progetti nei territori occupati. Electra ha eseguito lavori di sviluppo urbano e infrastrutturale in colonie e a Gerusalemme Est (incluso il progetto di funivia verso la Città Vecchia). Inoltre attraverso la sua filiale Elekter Jerusalem ha fornito servizi di facility management in insediamenti. Queste attività hanno portato Electra ad essere menzionata fra le imprese complici. Facilitando la costruzione di opere pubbliche e di edifici nelle colonie, Electra consolida la presenza israeliana e mette le sue competenze tecniche al servizio del progetto coloniale",
+    "source": "Database ONU (A/HRC/43/71)"
+  },
+  {
+    "name": "Shikun & Binui",
+    "country": "Israele",
+    "sector": "Costruzioni e sviluppo immobiliare",
+    "involvement": "Il più grande gruppo edilizio israeliano, coinvolto anche in progetti nei TPO. Shikun & Binui ha costruito quartieri in insediamenti come Har Homa e infrastrutture viarie nella Valle del Giordano per collegare avamposti agricoli a Israele. Ha inoltre investimenti in impianti solari nelle colonie. Pur dichiarando di seguire norme etiche internazionali, l’azienda ha storicamente beneficiato di appalti statali che includevano il territorio occupato. Il suo contributo consiste nel fornire capacità tecnica e finanziaria per sviluppare permanentemente le aree colonizzate, integrandole nell’economia nazionale israeliana",
+    "source": "Database ONU (A/HRC/43/71)"
+  },
+  {
+    "name": "Jewish National Fund (Keren Kayemet LeIsrael)",
+    "country": "Israele",
+    "sector": "Ente parastatale (acquisizione terreni e sviluppo)",
+    "involvement": "Fondato nel 1901, il Fondo Nazionale Ebraico è un’entità semi-aziendale incaricata storicamente dell’acquisto di terre in Palestina per l’insediamento ebraico. Nel corso dell’occupazione ha finanziato e pianificato la creazione di colonie, la costruzione di parchi e foreste sulle rovine di villaggi palestinesi (per impedirne la ricostruzione) e progetti infrastrutturali a beneficio esclusivo dei coloni. Il JNF opera raccogliendo donazioni internazionali e investendole in iniziative che facilitano la spoliazione e la sostituzione della popolazione palestinese. Il Rapporto lo cita come elemento chiave della “logica di cancellazione coloniale” – un attore che, pur essendo formalmente un’organizzazione no-profit, funge da braccio operativo nella giudaizzazione del territorio e nella perpetuazione dell’occupazione",
+    "source": "Rapporto Albanese, sezione IV (nota 33) – menzionato come entità aziendale storicamente coinvolta"
+  },
+  {
+    "name": "Massachusetts Institute of Technology (MIT)",
+    "country": "Stati Uniti",
+    "sector": "Accademia (università)",
+    "involvement": "Prestigiosa università americana che collabora con entità israeliane anche in settori militari. MIT ha accettato nel 2025 l’adesione di Elbit Systems al suo Industrial Liaison Program, fornendo all’azienda israeliana accesso privilegiato a ricerche e talenti accademici. Inoltre MIT conduce progetti congiunti di ricerca con istituzioni israeliane che spesso hanno applicazioni belliche dirette. Queste partnership scientifiche internazionali contribuiscono allo sviluppo di nuove tecnologie impiegate nell’occupazione e nella repressione del popolo palestinese",
+    "source": "Rapporto Albanese, paragrafo 2 (fattore accademico)"
+  },
+  {
+    "name": "Technical University of Munich (TUM)",
+    "country": "Germania",
+    "sector": "Accademia (università)",
+    "involvement": "Università tecnica tedesca coinvolta in progetti con partner israeliani. La TUM riceve importanti finanziamenti europei (oltre 198,5 milioni di euro) anche per programmi di ricerca congiunti con industrie e università israeliane in ambito cloud e AI. Ad esempio, TUM collabora con IBM Israele su sistemi cloud/AI nonostante IBM gestisca il registro della popolazione discriminatorio di Israele. Così le istituzioni accademiche europee, beneficiando di tali partnership, rafforzano il legame con l’apparato tecnologico dell’occupazione e ne condividono risultati che possono essere applicati al controllo dei palestinesi",
+    "source": "Rapporto Albanese, paragrafo 3 (fattore accademico)"
   },
   {
     "name": "University of Edinburgh",
     "country": "Regno Unito",
-    "sector": "Università",
-    "involvement": "Importante ateneo britannico che investe parte del proprio fondo (circa 25,5 milioni £) in colossi tech centrali nell’apparato di sorveglianza israeliano (Alphabet, Amazon, Microsoft, IBM) ed è tra le università più esposte finanziariamente; collabora inoltre con l’industria bellica israeliana (es. progetti con Leonardo S.p.A.) e con l’Università Ben-Gurion, condividendo ricerche rilevanti per le operazioni contro i palestinesi.",
-    "source": "Produzione di conoscenza, par. 4"
+    "sector": "Accademia (università)",
+    "involvement": "Una delle principali università britanniche, che mantiene stretti legami con Israele malgrado l’intensificarsi delle violenze. L’Università di Edimburgo risulta essere una delle istituzioni del Regno Unito più finanziariamente esposte verso l’economia israeliana (detiene circa 25,5 milioni di £ in investimenti collegati). Inoltre collabora a progetti di ricerca con aziende e atenei israeliani coinvolti direttamente nelle operazioni militari contro i palestinesi: ad esempio partecipa assieme a Leonardo S.p.A. e all’Università Ben Gurion a un laboratorio di intelligenza artificiale e data science, le cui innovazioni sono applicate nelle aggressioni a Gaza. Questi legami mettono in luce come perfino le università internazionali, in nome della ricerca, traggano profitto e contribuiscano a un’economia operante in modalità genocida",
+    "source": "Rapporto Albanese, paragrafo 4 (fattore accademico)"
   },
   {
-    "name": "Vanguard Group, Inc.",
+    "name": "Ben-Gurion University of the Negev",
+    "country": "Israele",
+    "sector": "Accademia (università)",
+    "involvement": "Università israeliana con forte vocazione tecnologica e legami con l’industria bellica. BGU collabora con aziende militari e atenei stranieri in progetti di ricerca avanzati (es. laboratorio congiunto di AI e data science con Leonardo e Università di Edimburgo) che sono direttamente connessi alle esigenze dell’esercito israeliano. Le sue ricerche su robotica, cyber e intelligence artificiale sono spesso finanziate da o condotte in partenariato con il Ministero della Difesa. In tal modo BGU funge da motore scientifico per l’innovazione dell’apparato di occupazione e repressione, rendendo l’accademia parte integrante dell’infrastruttura ideologica e tecnologica dell’apartheid israeliano",
+    "source": "Rapporto Albanese, paragrafo 4 (fattore accademico)"
+  },
+  {
+    "name": "Motorola Solutions",
     "country": "Stati Uniti",
-    "sector": "Gestione degli investimenti",
-    "involvement": "Società di investimenti statunitense tra i maggiori investitori nei titoli di Stato e in imprese cardine dell’economia di occupazione israeliana (primo azionista di Caterpillar, Chevron, Palantir, ecc.), canalizzando i risparmi pensionistici di milioni di persone nel sostegno indiretto all’apartheid e al militarismo israeliano.",
-    "source": "Fattori abilitanti (finanziamento), par. 2"
+    "sector": "Tecnologia (sistemi di sicurezza)",
+    "involvement": "Azienda statunitense fornitrice di sistemi di sorveglianza e comunicazione. Motorola Solutions ha installato per conto dell’esercito israeliano una rete di torri di sensori e radar (“MotoEagle”) lungo il muro di separazione e attorno agli insediamenti, che rileva movimenti di palestinesi e allerta i militari. Ha anche fornito sistemi radio crittati utilizzati dall’IDF nei territori occupati. Attraverso tali tecnologie, Motorola aiuta a mantenere un regime di sicurezza e controllo pervasivo a protezione delle colonie e del muro, permettendo la rapida individuazione e repressione di qualsiasi attività palestinese nelle vicinanze. La sua strumentazione è considerata parte integrante dell’architettura di sorveglianza dell’apartheid digitale israeliano",
+    "source": "Database ONU (A/HRC/43/71) – sistemi di sorveglianza per insediamenti"
   },
   {
-    "name": "Volvo Group",
-    "country": "Svezia",
-    "sector": "Macchinari pesanti/trasporti",
-    "involvement": "Multinazionale svedese dei macchinari pesanti; i suoi escavatori e mezzi sono forniti a Israele tramite un concessionario esclusivo e impiegati da oltre un decennio per demolizioni di case e terreni palestinesi e per costruire strade e trasporti dedicati alle colonie (inclusi autobus blindati prodotti col partner locale Merkavim).",
-    "source": "In vesti civili (Trasferimento), par. 3"
+    "name": "RE/MAX",
+    "country": "Stati Uniti",
+    "sector": "Immobiliare",
+    "involvement": "Gruppo immobiliare internazionale attivo anche in Israele tramite franchising locali, che ha trattato la compravendita di immobili situati in insediamenti della Cisgiordania. Agenti affiliati a RE/MAX Israel hanno pubblicizzato e venduto case in colonie come Ma’ale Adumim e Ariel a clienti stranieri, presentandole come normali proprietà immobiliari. Questa attività commerciale normalizza l’occupazione e attira investimenti esteri nelle colonie, consolidandone l’economia. In seguito a campagne di pressione, RE/MAX International ha dichiarato di volersi conformare al diritto internazionale umanitario, ma inserzionisti legati al marchio hanno continuato ad operare nelle colonie almeno fino al 2016. Ciò evidenzia come il settore immobiliare globale possa diventare complice nel trasferimento di popolazione e nella permanenza delle colonie",
+    "source": "Segnalazioni ONG (ESCR-Net, 2016) – coinvolgimento immobiliare nelle colonie"
+  },
+  {
+    "name": "Boeing",
+    "country": "Stati Uniti",
+    "sector": "Difesa (aerospazio militare)",
+    "involvement": "Produttore leader di aerei ed elicotteri militari. Boeing fornisce a Israele gran parte della sua flotta da combattimento oltre agli F-35: i caccia F-15 Eagle ed F/A-18, così come gli elicotteri d’attacco AH-64 Apache e i sistemi di rifornimento aereo Boeing, sono stati venduti all’aeronautica israeliana. Questi velivoli sono stati largamente impiegati nei bombardamenti aerei su Gaza (compresi raid che hanno causato altissime vittime civili) e fungono da pilastro della superiorità militare israeliana nella regione. Boeing ha inoltre condiviso tecnologie e manutenzione con l’industria bellica israeliana, contribuendo alla letalità delle operazioni. I suoi armamenti forniscono a Israele capacità di attacco a lungo raggio usate per colpire indiscriminatamente obiettivi in zone densamente popolate come Gaza, configurando potenziali crimini di guerra supportati dal materiale bellico statunitense",
+    "source": "Rapporto Albanese (contesto forniture USA non menzionato nominalmente ma parte integrante dell’arsenale aereo impiegato a Gaza)"
+  },
+  {
+    "name": "Raytheon Technologies",
+    "country": "Stati Uniti",
+    "sector": "Difesa (sistemi d’arma e missili)",
+    "involvement": "Gigante dell’industria bellica USA, produttore di molti degli armamenti di precisione utilizzati da Israele. Raytheon fornisce bombe guidate (es. kit JDAM per bombe Mk-84 da 2000 libbre) e missili aria-terra (come i missili Paveway e Spice attraverso joint-venture) che l’aeronautica israeliana impiega negli attacchi su Gaza e in altre operazioni nei TPO. Queste armi, definite “precise”, sono state responsabili di distruzione su larga scala di edifici e infrastrutture e di elevati numeri di vittime civili quando utilizzate in aree densamente abitate come Gaza. Inoltre Raytheon co-sviluppa con Israele sistemi di difesa (come il sistema David’s Sling) e collabora strettamente con l’industria locale. Fornendo munizionamento avanzato e know-how, Raytheon rende possibile l’esecuzione materiale di bombardamenti e assalti che caratterizzano l’odierna economia del genocidio",
+    "source": "Documenti pubblici del Dipartimento della Difesa USA (MOU 2016) – forniture di bombe a guida di precisione a Israele"
   }
 ]
