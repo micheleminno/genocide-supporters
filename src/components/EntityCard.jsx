@@ -44,7 +44,7 @@ export default function EntityCard({
             title="Link diretto a questa entità"
           >
             <span aria-hidden>🔗</span>
-            permalink
+            Link diretto
           </a>
         )}
       </header>
@@ -76,7 +76,6 @@ export default function EntityCard({
       <section aria-labelledby={`${hid}-involvement`} className="mb-3">
         <h4 id={`${hid}-involvement`} className="sr-only">Coinvolgimento</h4>
         <p className={`text-sm text-neutral-800 dark:text-neutral-200 ${expanded ? "" : "line-clamp-3"}`}>
-          <span className="font-medium">Coinvolgimento:</span>{" "}
           {entity.involvement}
         </p>
         {/* Toggle compare solo se testo lungo (sempre visibile: semplice e robusto) */}
