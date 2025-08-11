@@ -1,5 +1,5 @@
 import "./styles.css";
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import EntityCard from "./components/EntityCard";
 import SiteFooter from "./components/SiteFooter";
 import entities from "./entities.json";
@@ -8,15 +8,30 @@ export default function EntityList() {
   const [filterCountry, setFilterCountry] = useState("");
   const [filterSector, setFilterSector] = useState("");
 
-  const filteredEntities = entities.filter((e) => {
-    return (
-      (!filterCountry || e.country === filterCountry) &&
-      (!filterSector || e.sector === filterSector)
-    );
-  });
+  // Calcoli derivati con memo (performance + no sorprese)
+  const uniqueCountries = useMemo(
+    () => [...new Set(entities.map((e) => e.country))].sort(),
+    []
+  );
+  const uniqueSectors = useMemo(
+    () => [...new Set(entities.map((e) => e.sector))].sort(),
+    []
+  );
 
-  const uniqueCountries = [...new Set(entities.map((e) => e.country))];
-  const uniqueSectors = [...new Set(entities.map((e) => e.sector))];
+  const filteredEntities = useMemo(() => {
+    let list = entities;
+    if (filterCountry) list = list.filter((e) => e.country === filterCountry);
+    if (filterSector)  list = list.filter((e) => e.sector === filterSector);
+
+    // opzionale: dedupe se nel JSON ci sono doppioni
+    const seen = new Set();
+    return list.filter((e) => {
+      const key = `${e.name}|${e.country}|${e.sector}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }, [filterCountry, filterSector]);
 
   return (
     <div className="min-h-screen bg-neutral-50 text-neutral-900">
@@ -35,7 +50,6 @@ export default function EntityList() {
               </p>
             </div>
 
-            {/* Contatore risultati (aggiornato dinamicamente) */}
             <div
               aria-live="polite"
               className="text-sm text-gray-700 bg-gray-100 rounded-full px-3 py-1 w-fit"
@@ -47,7 +61,6 @@ export default function EntityList() {
       </header>
 
       <main id="main-content" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Sezione filtri */}
         <section
           aria-labelledby="filters-title"
           className="bg-white rounded-2xl shadow-sm border mt-6"
@@ -67,13 +80,13 @@ export default function EntityList() {
                 </label>
                 <select
                   id="country"
-                  value={filterCountry || ""}
+                  value={filterCountry}
                   onChange={(e) => setFilterCountry(e.target.value)}
                   className="border rounded-md px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-red-300"
                 >
                   <option value="">Tutti i Paesi</option>
-                  {uniqueCountries.map((country, i) => (
-                    <option key={i} value={country}>
+                  {uniqueCountries.map((country) => (
+                    <option key={country} value={country}>
                       {country}
                     </option>
                   ))}
@@ -86,20 +99,19 @@ export default function EntityList() {
                 </label>
                 <select
                   id="sector"
-                  value={filterSector || ""}
+                  value={filterSector}
                   onChange={(e) => setFilterSector(e.target.value)}
                   className="border rounded-md px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-red-300"
                 >
                   <option value="">Tutti i Settori</option>
-                  {uniqueSectors.map((sector, i) => (
-                    <option key={i} value={sector}>
+                  {uniqueSectors.map((sector) => (
+                    <option key={sector} value={sector}>
                       {sector}
                     </option>
                   ))}
                 </select>
               </div>
 
-              {/* Spazio espandibile: es. barra ricerca o ordinamento in futuro */}
               <div className="hidden lg:block" />
             </form>
 
@@ -111,40 +123,31 @@ export default function EntityList() {
           <div className="border-t" />
         </section>
 
-        {/* Lista risultati */}
+        {/* ✅ UNA sola griglia + UNA sola map */}
         <section aria-labelledby="results-title" className="mt-6">
-          <h2 id="results-title" className="sr-only">
-            Risultati
-          </h2>
+          <h2 id="results-title" className="sr-only">Risultati</h2>
 
-          <div className="grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {filteredEntities.map((entity, index) => (
-              <div className="grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                {filteredEntities.map((entity, i) => (
-                  <EntityCard
-                    key={i}
-                    entity={entity}
-                    onTagClick={(type, value) => {
-                      if (type === "country") setFilterCountry(value);
-                      if (type === "sector") setFilterSector(value);
-                      // scroll in alto ai filtri (opzionale)
-                      window.scrollTo({ top: 0, behavior: "smooth" });
-                    }}
-                  />
-                ))}
-              </div>
-            ))}
-          </div>
-
-          {/* Stato vuoto */}
-          {filteredEntities.length === 0 && (
+          {filteredEntities.length > 0 ? (
+            <div className="grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {filteredEntities.map((entity) => (
+                <EntityCard
+                  key={`${entity.name}|${entity.country}|${entity.sector}`}
+                  entity={entity}
+                  onTagClick={(type, value) => {
+                    if (type === "country") setFilterCountry(value);
+                    if (type === "sector") setFilterSector(value);
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                  }}
+                />
+              ))}
+            </div>
+          ) : (
             <div className="mt-10 text-center text-sm text-gray-600">
               Nessun risultato. Prova a modificare i filtri.
             </div>
           )}
         </section>
 
-        {/* Link documento */}
         <aside className="mt-8">
           <a
             href="Rapporto-Francesca-Albanese.pdf"
@@ -156,7 +159,6 @@ export default function EntityList() {
         </aside>
       </main>
 
-      {/* Footer */}
       <SiteFooter
         lastUpdated="2025-08-11"
         pdfUrl="/Rapporto-Francesca-Albanese.pdf"
