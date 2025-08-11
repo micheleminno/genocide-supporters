@@ -18,14 +18,6 @@ export default function EntityList() {
 
   return (
     <div className="min-h-screen bg-neutral-50 text-neutral-900">
-      {/* Skip link per accessibilità */}
-      <a
-        href="#main-content"
-        className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:bg-white focus:px-3 focus:py-2 focus:rounded-md focus:shadow"
-      >
-        Salta al contenuto
-      </a>
-
       <header className="border-b bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
           <nav
@@ -170,7 +162,7 @@ export default function EntityList() {
             className="inline-flex items-center gap-2 text-sm underline hover:text-red-700"
           >
             <span aria-hidden>📄</span>
-            Consulta il documento originale (PDF)
+            Consulta il rapporto ONU di Francesca Albanese (PDF)
           </a>
         </aside>
       </main>
