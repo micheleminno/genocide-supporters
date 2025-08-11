@@ -167,16 +167,16 @@ export default function EntityList() {
         </aside>
       </main>
 
-      <footer className="mt-12 border-t bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 text-xs text-gray-600 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-          <p>
-            Ultimo aggiornamento: <time dateTime="2025-08-11">11 agosto 2025</time>
-          </p>
-          <p>
-            Licenza contenuti: <span className="font-medium">CC BY-NC-SA 4.0</span>
-          </p>
-        </div>
-      </footer>
+      {/* Footer */}
+      <SiteFooter
+        lastUpdated="2025-08-11"
+        pdfUrl="/Rapporto-Francesca-Albanese.pdf"
+        contactEmail="michele@example.org"
+        repoUrl="https://github.com/tuo-repo"
+        privacyUrl="/privacy"
+        cookiePolicyUrl="/cookie-policy"
+        version="v1.3.2"
+      />
     </div>
   );
 }
