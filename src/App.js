@@ -17,62 +17,174 @@ export default function EntityList() {
   const uniqueSectors = [...new Set(entities.map((e) => e.sector))];
 
   return (
-    <div className="p-6">
-      <h1 className="text-3xl font-bold mb-4">
-        Entità Coinvolte nel Genocidio e nell’Occupazione della Palestina (ONU, 2025)
-      </h1>
+    <div className="min-h-screen bg-neutral-50 text-neutral-900">
+      {/* Skip link per accessibilità */}
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:bg-white focus:px-3 focus:py-2 focus:rounded-md focus:shadow"
+      >
+        Salta al contenuto
+      </a>
 
-      <div className="flex gap-4 mb-6">
-        <select
-          onChange={(e) => setFilterCountry(e.target.value)}
-          className="border p-2 rounded"
+      <header className="border-b bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
+          <nav
+            aria-label="Intestazione sito"
+            className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
+          >
+            <div>
+              <h1 className="text-2xl sm:text-3xl font-bold text-red-700">
+                Entità coinvolte nel genocidio dei Palestinesi e nell’occupazione della Palestina
+              </h1>
+              <p className="text-sm text-gray-600">
+                Dati tratti dal Rapporto ONU di Francesca Albanese e altre fonti ONU – 2025
+              </p>
+            </div>
+
+            {/* Contatore risultati (aggiornato dinamicamente) */}
+            <div
+              aria-live="polite"
+              className="text-sm text-gray-700 bg-gray-100 rounded-full px-3 py-1 w-fit"
+            >
+              {filteredEntities.length} risult{filteredEntities.length === 1 ? "ato" : "ati"}
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main-content" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        {/* Sezione filtri */}
+        <section
+          aria-labelledby="filters-title"
+          className="bg-white rounded-2xl shadow-sm border mt-6"
         >
-          <option value="">Tutti i Paesi</option>
-          {uniqueCountries.map((country, i) => (
-            <option key={i} value={country}>
-              {country}
-            </option>
-          ))}
-        </select>
+          <div className="p-4 sm:p-6">
+            <h2 id="filters-title" className="text-base font-semibold mb-4">
+              Filtra risultati
+            </h2>
 
-        <select
-          onChange={(e) => setFilterSector(e.target.value)}
-          className="border p-2 rounded"
-        >
-          <option value="">Tutti i Settori</option>
-          {uniqueSectors.map((sector, i) => (
-            <option key={i} value={sector}>
-              {sector}
-            </option>
-          ))}
-        </select>
-      </div>
+            <form
+              className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 items-end"
+              aria-describedby="filters-help"
+            >
+              <div className="flex flex-col gap-1">
+                <label htmlFor="country" className="text-sm font-medium text-gray-700">
+                  Paese
+                </label>
+                <select
+                  id="country"
+                  value={filterCountry || ""}
+                  onChange={(e) => setFilterCountry(e.target.value)}
+                  className="border rounded-md px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-red-300"
+                >
+                  <option value="">Tutti i Paesi</option>
+                  {uniqueCountries.map((country, i) => (
+                    <option key={i} value={country}>
+                      {country}
+                    </option>
+                  ))}
+                </select>
+              </div>
 
-      <div className="grid gap-4">
-        {filteredEntities.map((entity, index) => (
-          <div key={index} className="border p-4 rounded-xl shadow">
-            <h2 className="text-xl font-semibold">{entity.name}</h2>
-            <p>
-              <strong>Paese:</strong> {entity.country}
-            </p>
-            <p>
-              <strong>Settore:</strong> {entity.sector}
-            </p>
-            <p>
-              <strong>Coinvolgimento:</strong> {entity.involvement}
-            </p>
-            <p className="text-sm text-gray-500">
-              <strong>Fonte:</strong> {entity.source}
+              <div className="flex flex-col gap-1">
+                <label htmlFor="sector" className="text-sm font-medium text-gray-700">
+                  Settore
+                </label>
+                <select
+                  id="sector"
+                  value={filterSector || ""}
+                  onChange={(e) => setFilterSector(e.target.value)}
+                  className="border rounded-md px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-red-300"
+                >
+                  <option value="">Tutti i Settori</option>
+                  {uniqueSectors.map((sector, i) => (
+                    <option key={i} value={sector}>
+                      {sector}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {/* Spazio espandibile: es. barra ricerca o ordinamento in futuro */}
+              <div className="hidden lg:block" />
+            </form>
+
+            <p id="filters-help" className="sr-only">
+              Usa i menu per filtrare per Paese e Settore.
             </p>
           </div>
-        ))}
-      </div>
 
-      <div className="mt-8 text-sm text-gray-600">
-        <a href="Rapporto-Francesca-Albanese.pdf" className="underline">
-          Consulta il documento completo originale (PDF)
-        </a>
-      </div>
+          <div className="border-t" />
+        </section>
+
+        {/* Lista risultati */}
+        <section aria-labelledby="results-title" className="mt-6">
+          <h2 id="results-title" className="sr-only">
+            Risultati
+          </h2>
+
+          <div className="grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {filteredEntities.map((entity, index) => (
+              <article
+                key={index}
+                className="group bg-white border rounded-2xl p-4 sm:p-5 shadow-sm hover:shadow-md transition-shadow"
+              >
+                <header className="mb-3">
+                  <h3 className="text-lg font-semibold leading-snug group-hover:underline underline-offset-4">
+                    {entity.name}
+                  </h3>
+                </header>
+
+                <div className="flex flex-wrap gap-2 mb-3">
+                  <span className="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded">
+                    {entity.country}
+                  </span>
+                  <span className="px-2 py-1 text-xs bg-green-100 text-green-800 rounded">
+                    {entity.sector}
+                  </span>
+                </div>
+
+                <p className="text-sm mb-2">
+                  <span className="font-medium">Coinvolgimento:</span> {entity.involvement}
+                </p>
+
+                <p className="text-xs text-gray-500">
+                  <span className="font-medium">Fonte:</span> {entity.source}
+                </p>
+              </article>
+            ))}
+          </div>
+
+          {/* Stato vuoto */}
+          {filteredEntities.length === 0 && (
+            <div className="mt-10 text-center text-sm text-gray-600">
+              Nessun risultato. Prova a modificare i filtri.
+            </div>
+          )}
+        </section>
+
+        {/* Link documento */}
+        <aside className="mt-8">
+          <a
+            href="Rapporto-Francesca-Albanese.pdf"
+            className="inline-flex items-center gap-2 text-sm underline hover:text-red-700"
+          >
+            <span aria-hidden>📄</span>
+            Consulta il documento originale (PDF)
+          </a>
+        </aside>
+      </main>
+
+      <footer className="mt-12 border-t bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 text-xs text-gray-600 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <p>
+            Ultimo aggiornamento: <time dateTime="2025-08-11">11 agosto 2025</time>
+          </p>
+          <p>
+            Licenza contenuti: <span className="font-medium">CC BY-NC-SA 4.0</span>
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
