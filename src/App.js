@@ -1,5 +1,7 @@
 import "./styles.css";
 import React, { useState } from "react";
+import EntityCard from "./components/EntityCard";
+import SiteFooter from "./components/SiteFooter";
 import entities from "./entities.json";
 
 export default function EntityList() {
@@ -117,33 +119,20 @@ export default function EntityList() {
 
           <div className="grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {filteredEntities.map((entity, index) => (
-              <article
-                key={index}
-                className="group bg-white border rounded-2xl p-4 sm:p-5 shadow-sm hover:shadow-md transition-shadow"
-              >
-                <header className="mb-3">
-                  <h3 className="text-lg font-semibold leading-snug group-hover:underline underline-offset-4">
-                    {entity.name}
-                  </h3>
-                </header>
-
-                <div className="flex flex-wrap gap-2 mb-3">
-                  <span className="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded">
-                    {entity.country}
-                  </span>
-                  <span className="px-2 py-1 text-xs bg-green-100 text-green-800 rounded">
-                    {entity.sector}
-                  </span>
-                </div>
-
-                <p className="text-sm mb-2">
-                  <span className="font-medium">Coinvolgimento:</span> {entity.involvement}
-                </p>
-
-                <p className="text-xs text-gray-500">
-                  <span className="font-medium">Fonte:</span> {entity.source}
-                </p>
-              </article>
+              <div className="grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {filteredEntities.map((entity, i) => (
+                  <EntityCard
+                    key={i}
+                    entity={entity}
+                    onTagClick={(type, value) => {
+                      if (type === "country") setFilterCountry(value);
+                      if (type === "sector") setFilterSector(value);
+                      // scroll in alto ai filtri (opzionale)
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                    }}
+                  />
+                ))}
+              </div>
             ))}
           </div>
 
