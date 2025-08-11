@@ -42,5 +42,5 @@ while true; do
   else
     echo "[$ts] ⏳ Ancora in propagazione…"
   fi
-  sleep 600   # 10 minuti
+  sleep 60   # 1 minuto di attesa tra i controlli
 done
