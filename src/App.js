@@ -19,7 +19,7 @@ export default function EntityList() {
   return (
     <div className="p-6">
       <h1 className="text-3xl font-bold mb-4">
-        Entità Coinvolte nel Genocidio e nell’Occupazione (Rapporto ONU 2025)
+        Entità Coinvolte nel Genocidio e nell’Occupazione della Palestina (ONU, 2025)
       </h1>
 
       <div className="flex gap-4 mb-6">
