@@ -103,7 +103,7 @@ export default function EntityList() {
               {filteredEntities.length} risult{filteredEntities.length === 1 ? "ato" : "ati"}
             </span>
           </div>
-          
+
           <h2 className="visually-hidden">Risultati</h2>
 
           {filteredEntities.length > 0 ? (
@@ -144,13 +144,13 @@ export default function EntityList() {
 
       {/* Footer */}
       <SiteFooter
-        lastUpdated="2025-08-11"
+        lastUpdated="2025-08-13"
         pdfUrl="/Rapporto-Francesca-Albanese.pdf"
-        contactEmail="michele@example.org"
-        repoUrl="https://github.com/tuo-repo"
+        contactEmail="genocide_supporters@protonmail.com"
+        repoUrl="https://github.com/micheleminno/genocide-supporters"
         privacyUrl="/privacy"
         cookiePolicyUrl="/cookie-policy"
-        version="v1.3.2"
+        version="v1.0.0"
       />
     </div>
   );
