@@ -2,3 +2,11 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+/* clamp di 1 riga */
+.clamp-1{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
