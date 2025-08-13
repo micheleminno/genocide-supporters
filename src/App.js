@@ -133,13 +133,24 @@ export default function EntityList() {
 
         {/* Link al documento */}
         <aside className="mt-4">
-          <a
-            href="Rapporto-Francesca-Albanese.pdf"
-            className="text-decoration-underline small"
-          >
-            📄 Consulta il rapporto ONU di Francesca Albanese (PDF)
-          </a>
+          <div className="alert alert-info d-flex align-items-center gap-2 mb-0" role="alert">
+            <span role="img" aria-label="Documento">📄</span>
+            <div>
+              <a
+                href="Rapporto-Francesca-Albanese.pdf"
+                className="fw-semibold text-decoration-none"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Consulta il rapporto ONU di Francesca Albanese (PDF)
+              </a>
+              <div className="small text-muted">
+                Fonte ufficiale ONU – aggiornato al 2025
+              </div>
+            </div>
+          </div>
         </aside>
+
       </main>
 
       {/* Footer */}
