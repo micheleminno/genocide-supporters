@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 
 export default function SiteFooter({
-  lastUpdated = "2025-08-11",
+  lastUpdated = "2025-08-13",
   pdfUrl = "/Rapporto-Francesca-Albanese.pdf",
-  contactEmail = "info@example.org",
+  contactEmail = "genocide_supporters@protonmail.com",
   repoUrl,
   privacyUrl = "/privacy",
   cookiePolicyUrl = "/cookie-policy",
-  version = "v1.3.2",
+  version = "v1.0.0",
   lang: controlledLang,
   onLangChange,
 }) {
@@ -219,7 +219,7 @@ export default function SiteFooter({
       <div className="border-top py-3 bg-white">
         <div className="container d-flex flex-column flex-sm-row justify-content-between align-items-center small text-muted gap-2">
           <p className="mb-0">
-            © {new Date().getFullYear()} — Dati dal Rapporto ONU di Francesca Albanese.
+            © {new Date().getFullYear()} — Dati dal Rapporto ONU di Francesca Albanese e altre fonti ONU.
           </p>
           <div className="d-flex align-items-center gap-2">
             <span className="badge text-bg-light border">

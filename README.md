@@ -84,7 +84,7 @@ Questo progetto è rilasciato sotto **Creative Commons Attribution-NonCommercial
 ## 📬 Contatti
 
 - **Autore:** Michele Minno  
-- **Email:** [michele@example.org](mailto:michele@example.org)  
-- **Repository:** [GitHub](https://github.com/tuo-utente/tuo-repo)
+- **Email:** [genocide_supporters@protonmail.com](mailto:genocide_supporters@protonmail.com)  
+- **Repository:** [GitHub](https://github.com/micheleminno/genocide-supporters)
 
 ---
