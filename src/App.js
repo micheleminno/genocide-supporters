@@ -1,4 +1,6 @@
 import "./styles.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import React, { useMemo, useState } from "react";
 import EntityCard from "./components/EntityCard";
 import SiteFooter from "./components/SiteFooter";
@@ -8,7 +10,7 @@ export default function EntityList() {
   const [filterCountry, setFilterCountry] = useState("");
   const [filterSector, setFilterSector] = useState("");
 
-  // Calcoli derivati con memo (performance + no sorprese)
+  // Liste uniche per i filtri (ordinate)
   const uniqueCountries = useMemo(
     () => [...new Set(entities.map((e) => e.country))].sort(),
     []
@@ -18,12 +20,12 @@ export default function EntityList() {
     []
   );
 
+  // Lista filtrata e deduplicata
   const filteredEntities = useMemo(() => {
     let list = entities;
     if (filterCountry) list = list.filter((e) => e.country === filterCountry);
-    if (filterSector)  list = list.filter((e) => e.sector === filterSector);
+    if (filterSector) list = list.filter((e) => e.sector === filterSector);
 
-    // opzionale: dedupe se nel JSON ci sono doppioni
     const seen = new Set();
     return list.filter((e) => {
       const key = `${e.name}|${e.country}|${e.sector}`;
@@ -34,131 +36,109 @@ export default function EntityList() {
   }, [filterCountry, filterSector]);
 
   return (
-    <div className="min-h-screen bg-neutral-50 text-neutral-900">
-      <header className="border-b bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
-          <nav
-            aria-label="Intestazione sito"
-            className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
-          >
+    <div className="bg-light text-dark min-vh-100 d-flex flex-column">
+      {/* Header */}
+      <header className="border-bottom bg-white">
+        <div className="container py-4">
+          <div className="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-end">
             <div>
-              <h1 className="text-2xl sm:text-3xl font-bold text-red-700">
+              <h1 className="h3 text-danger fw-bold">
                 Entità coinvolte nel genocidio dei Palestinesi e nell’occupazione della Palestina
               </h1>
-              <p className="text-sm text-gray-600">
+              <p className="text-muted small mb-0">
                 Dati tratti dal Rapporto ONU di Francesca Albanese e altre fonti ONU – 2025
               </p>
             </div>
-
-            <div
-              aria-live="polite"
-              className="text-sm text-gray-700 bg-gray-100 rounded-full px-3 py-1 w-fit"
-            >
+            <span className="badge bg-light text-dark border mt-3 mt-sm-0">
               {filteredEntities.length} risult{filteredEntities.length === 1 ? "ato" : "ati"}
-            </div>
-          </nav>
+            </span>
+          </div>
         </div>
       </header>
 
-      <main id="main-content" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <section
-          aria-labelledby="filters-title"
-          className="bg-white rounded-2xl shadow-sm border mt-6"
-        >
-          <div className="p-4 sm:p-6">
-            <h2 id="filters-title" className="text-base font-semibold mb-4">
-              Filtra risultati
-            </h2>
+      {/* Main */}
+      <main className="container flex-grow-1 py-4">
+        {/* Filtri */}
+        <section className="bg-white border rounded-3 shadow-sm p-4 mb-4">
+          <h2 className="h6 mb-3">Filtra risultati</h2>
+          <div className="row g-3">
+            <div className="col-sm-6 col-lg-4">
+              <label htmlFor="country" className="form-label">Paese</label>
+              <select
+                id="country"
+                value={filterCountry}
+                onChange={(e) => setFilterCountry(e.target.value)}
+                className="form-select"
+              >
+                <option value="">Tutti i Paesi</option>
+                {uniqueCountries.map((country) => (
+                  <option key={country} value={country}>
+                    {country}
+                  </option>
+                ))}
+              </select>
+            </div>
 
-            <form
-              className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 items-end"
-              aria-describedby="filters-help"
-            >
-              <div className="flex flex-col gap-1">
-                <label htmlFor="country" className="text-sm font-medium text-gray-700">
-                  Paese
-                </label>
-                <select
-                  id="country"
-                  value={filterCountry}
-                  onChange={(e) => setFilterCountry(e.target.value)}
-                  className="border rounded-md px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-red-300"
-                >
-                  <option value="">Tutti i Paesi</option>
-                  {uniqueCountries.map((country) => (
-                    <option key={country} value={country}>
-                      {country}
-                    </option>
-                  ))}
-                </select>
-              </div>
-
-              <div className="flex flex-col gap-1">
-                <label htmlFor="sector" className="text-sm font-medium text-gray-700">
-                  Settore
-                </label>
-                <select
-                  id="sector"
-                  value={filterSector}
-                  onChange={(e) => setFilterSector(e.target.value)}
-                  className="border rounded-md px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-red-300"
-                >
-                  <option value="">Tutti i Settori</option>
-                  {uniqueSectors.map((sector) => (
-                    <option key={sector} value={sector}>
-                      {sector}
-                    </option>
-                  ))}
-                </select>
-              </div>
-
-              <div className="hidden lg:block" />
-            </form>
-
-            <p id="filters-help" className="sr-only">
-              Usa i menu per filtrare per Paese e Settore.
-            </p>
+            <div className="col-sm-6 col-lg-4">
+              <label htmlFor="sector" className="form-label">Settore</label>
+              <select
+                id="sector"
+                value={filterSector}
+                onChange={(e) => setFilterSector(e.target.value)}
+                className="form-select"
+              >
+                <option value="">Tutti i Settori</option>
+                {uniqueSectors.map((sector) => (
+                  <option key={sector} value={sector}>
+                    {sector}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
-
-          <div className="border-t" />
         </section>
 
-        {/* ✅ UNA sola griglia + UNA sola map */}
-        <section aria-labelledby="results-title" className="mt-6">
-          <h2 id="results-title" className="sr-only">Risultati</h2>
+        {/* Risultati */}
+        <section>
+          <h2 className="visually-hidden">Risultati</h2>
 
           {filteredEntities.length > 0 ? (
-            <div className="grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="row g-4">
               {filteredEntities.map((entity) => (
-                <EntityCard
+                <div
                   key={`${entity.name}|${entity.country}|${entity.sector}`}
-                  entity={entity}
-                  onTagClick={(type, value) => {
-                    if (type === "country") setFilterCountry(value);
-                    if (type === "sector") setFilterSector(value);
-                    window.scrollTo({ top: 0, behavior: "smooth" });
-                  }}
-                />
+                  className="col-12 col-sm-6 col-lg-4 col-xl-3"
+                >
+                  <EntityCard
+                    entity={entity}
+                    onTagClick={(type, value) => {
+                      if (type === "country") setFilterCountry(value);
+                      if (type === "sector") setFilterSector(value);
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                    }}
+                  />
+                </div>
               ))}
             </div>
           ) : (
-            <div className="mt-10 text-center text-sm text-gray-600">
+            <div className="text-center text-muted small py-5">
               Nessun risultato. Prova a modificare i filtri.
             </div>
           )}
         </section>
 
-        <aside className="mt-8">
+        {/* Link al documento */}
+        <aside className="mt-4">
           <a
             href="Rapporto-Francesca-Albanese.pdf"
-            className="inline-flex items-center gap-2 text-sm underline hover:text-red-700"
+            className="text-decoration-underline small"
           >
-            <span aria-hidden>📄</span>
-            Consulta il rapporto ONU di Francesca Albanese (PDF)
+            📄 Consulta il rapporto ONU di Francesca Albanese (PDF)
           </a>
         </aside>
       </main>
 
+      {/* Footer */}
       <SiteFooter
         lastUpdated="2025-08-11"
         pdfUrl="/Rapporto-Francesca-Albanese.pdf"

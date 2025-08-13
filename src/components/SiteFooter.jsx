@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function SiteFooter({
   lastUpdated = "2025-08-11",
-  pdfUrl = "Rapporto-Francesca-Albanese.pdf",
+  pdfUrl = "/Rapporto-Francesca-Albanese.pdf",
   contactEmail = "info@example.org",
   repoUrl,
   privacyUrl = "/privacy",
@@ -59,7 +59,7 @@ export default function SiteFooter({
 
   useEffect(() => {
     if (controlledLang && controlledLang !== lang) setLang(controlledLang);
-  }, [controlledLang]);
+  }, [controlledLang]); // eslint-disable-line
 
   const changeLang = (next) => {
     if (controlledLang) {
@@ -72,181 +72,160 @@ export default function SiteFooter({
   };
 
   return (
-    <footer className="mt-12 border-t bg-white/70 backdrop-blur dark:bg-neutral-900/70 dark:border-neutral-800">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-        {/* Licenza */}
-        <section aria-labelledby="license-title">
-          <h2 id="license-title" className="text-sm font-semibold text-neutral-800 dark:text-neutral-200">
-            {L.license}
-          </h2>
-
-          <p className="mt-2 text-sm text-neutral-600 dark:text-neutral-400">
-            {L.contentsUnder}{" "}
+    <footer className="bg-light border-top mt-5">
+      <div className="container py-5">
+        <div className="row gy-4">
+          {/* Licenza */}
+          <div className="col-md-3">
+            <h5>{L.license}</h5>
+            <p className="small mb-2">
+              {L.contentsUnder}{" "}
+              <a
+                href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link-dark"
+              >
+                CC BY-NC-SA 4.0
+              </a>
+            </p>
             <a
               href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline underline-offset-4 hover:text-red-700 dark:hover:text-red-400"
+              title="Creative Commons BY-NC-SA 4.0"
+              className="d-inline-flex gap-1 mb-2"
             >
-              CC BY-NC-SA 4.0
-            </a>.
-          </p>
+              <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" width="22" height="22" />
+              <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" width="22" height="22" />
+              <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="NC" width="22" height="22" />
+              <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="SA" width="22" height="22" />
+            </a>
+            <ul className="list-unstyled small text-muted mb-0">
+              <li>• BY — Attribution</li>
+              <li>• NC — Non Commercial</li>
+              <li>• SA — Share Alike</li>
+            </ul>
+          </div>
 
-          {/* Badge CC ufficiali */}
-          <a
-            href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-3 inline-flex items-center gap-2 p-2 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-800"
-            aria-label="Creative Commons BY-NC-SA 4.0"
-            title="Creative Commons BY-NC-SA 4.0"
-          >
-            <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" width="22" height="22" className="dark:invert" />
-            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" width="22" height="22" className="dark:invert" />
-            <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="NC" width="22" height="22" className="dark:invert" />
-            <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="SA" width="22" height="22" className="dark:invert" />
-          </a>
-
-          <ul className="mt-3 space-y-1 text-xs text-neutral-500 dark:text-neutral-400">
-            <li>• BY — Attribution</li>
-            <li>• NC — Non Commercial</li>
-            <li>• SA — Share Alike</li>
-          </ul>
-        </section>
-
-        {/* Risorse */}
-        <nav aria-labelledby="resources-title">
-          <h2 id="resources-title" className="text-sm font-semibold text-neutral-800 dark:text-neutral-200">
-            {L.resources}
-          </h2>
-          <ul className="mt-2 space-y-2 text-sm">
-            <li>
-              <a href={pdfUrl} className="underline underline-offset-4 hover:text-red-700 dark:hover:text-red-400">
-                📄 {L.report}
-              </a>
-            </li>
-            {repoUrl && (
+          {/* Risorse */}
+          <div className="col-md-3">
+            <h5>{L.resources}</h5>
+            <ul className="list-unstyled small">
+              <li>
+                <a href={pdfUrl} className="link-dark">
+                  📄 {L.report}
+                </a>
+              </li>
+              {repoUrl && (
+                <li>
+                  <a href={repoUrl} target="_blank" rel="noopener noreferrer" className="link-dark">
+                    🧩 {L.source}
+                  </a>
+                </li>
+              )}
               <li>
                 <a
-                  href={repoUrl}
+                  href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.it"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline underline-offset-4 hover:text-red-700 dark:hover:text-red-400"
+                  className="link-dark"
                 >
-                  🧩 {L.source}
+                  ⚖️ {L.legal}
                 </a>
               </li>
-            )}
-            <li>
-              <a
-                href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.it"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline underline-offset-4 hover:text-red-700 dark:hover:text-red-400"
+            </ul>
+          </div>
+
+          {/* Contatti */}
+          <div className="col-md-3">
+            <h5>{L.contact}</h5>
+            <ul className="list-unstyled small">
+              {contactEmail && (
+                <li>
+                  <a href={`mailto:${contactEmail}`} className="link-dark">
+                    ✉️ {contactEmail}
+                  </a>
+                </li>
+              )}
+              <li className="text-muted">{L.location}</li>
+            </ul>
+          </div>
+
+          {/* Info + Switch lingua */}
+          <div className="col-md-3">
+            <h5>{L.info}</h5>
+            <p className="small text-muted mb-2">
+              {L.lastUpdate}:{" "}
+              <time dateTime={lastUpdated}>
+                {new Date(lastUpdated).toLocaleDateString(
+                  lang === "it" ? "it-IT" : "en-GB",
+                  { day: "2-digit", month: "long", year: "numeric" }
+                )}
+              </time>
+            </p>
+
+            {/* Switch lingua */}
+            <div className="btn-group btn-group-sm mb-3" role="group" aria-label="Language switch">
+              <button
+                type="button"
+                className={`btn ${lang === "it" ? "btn-danger" : "btn-outline-secondary"}`}
+                onClick={() => changeLang("it")}
               >
-                ⚖️ {L.legal}
-              </a>
-            </li>
-          </ul>
-        </nav>
+                IT
+              </button>
+              <button
+                type="button"
+                className={`btn ${lang === "en" ? "btn-danger" : "btn-outline-secondary"}`}
+                onClick={() => changeLang("en")}
+              >
+                EN
+              </button>
+            </div>
 
-        {/* Contatti */}
-        <address className="not-italic" aria-labelledby="contact-title">
-          <h2 id="contact-title" className="text-sm font-semibold text-neutral-800 dark:text-neutral-200">
-            {L.contact}
-          </h2>
-          <ul className="mt-2 space-y-2 text-sm">
-            {contactEmail && (
-              <li>
-                <a
-                  href={`mailto:${contactEmail}`}
-                  className="underline underline-offset-4 hover:text-red-700 dark:hover:text-red-400"
-                >
-                  ✉️ {contactEmail}
-                </a>
-              </li>
-            )}
-            <li className="text-neutral-600 dark:text-neutral-400">{L.location}</li>
-          </ul>
-        </address>
+            {/* Link privacy e cookie */}
+            <div className="d-flex flex-wrap gap-2 small mb-3">
+              <a href={privacyUrl} className="link-dark">{L.privacy}</a>
+              <span>•</span>
+              <a href={cookiePolicyUrl} className="link-dark">{L.cookies}</a>
+            </div>
 
-        {/* Info + Switch lingua */}
-        <section aria-labelledby="info-title">
-          <h2 id="info-title" className="text-sm font-semibold text-neutral-800 dark:text-neutral-200">
-            {L.info}
-          </h2>
-
-          <p className="mt-2 text-sm text-neutral-600 dark:text-neutral-400">
-            {L.lastUpdate}:{" "}
-            <time dateTime={lastUpdated}>
-              {new Date(lastUpdated).toLocaleDateString(lang === "it" ? "it-IT" : "en-GB", {
-                day: "2-digit",
-                month: "long",
-                year: "numeric",
-              })}
-            </time>
-          </p>
-
-          {/* Switch lingua */}
-          <div className="mt-4 inline-flex rounded-full border overflow-hidden">
-            <button
-              type="button"
-              onClick={() => changeLang("it")}
-              className={`text-xs px-3 py-2 ${lang === "it" ? "bg-red-600 text-white" : "hover:bg-neutral-100 dark:hover:bg-neutral-800"}`}
-            >
-              IT
-            </button>
-            <button
-              type="button"
-              onClick={() => changeLang("en")}
-              className={`text-xs px-3 py-2 border-l ${lang === "en" ? "bg-red-600 text-white" : "hover:bg-neutral-100 dark:hover:bg-neutral-800"}`}
-            >
-              EN
-            </button>
+            {/* Pulsanti utility */}
+            <div className="d-flex flex-wrap gap-2">
+              <button
+                type="button"
+                className="btn btn-outline-secondary btn-sm"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              >
+                ⤴︎ {L.backToTop}
+              </button>
+              <button
+                type="button"
+                className="btn btn-outline-secondary btn-sm"
+                onClick={() => {
+                  const root = document.documentElement;
+                  root.classList.toggle("dark");
+                  localStorage.setItem("color-scheme", root.classList.contains("dark") ? "dark" : "light");
+                }}
+              >
+                🌓
+              </button>
+            </div>
           </div>
-
-          {/* Utility */}
-          <div className="mt-4 flex flex-wrap items-center gap-3">
-            <a href={privacyUrl} className="text-xs underline underline-offset-4 hover:text-red-700 dark:hover:text-red-400">
-              {L.privacy}
-            </a>
-            <span className="text-neutral-400 text-xs">•</span>
-            <a href={cookiePolicyUrl} className="text-xs underline underline-offset-4 hover:text-red-700 dark:hover:text-red-400">
-              {L.cookies}
-            </a>
-            <span className="text-neutral-400 text-xs">•</span>
-            <button
-              type="button"
-              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              className="text-xs px-3 py-1.5 rounded-full border hover:border-red-400 hover:text-red-700 dark:hover:text-red-400"
-            >
-              ⤴︎ {L.backToTop}
-            </button>
-            <button
-              type="button"
-              onClick={() => {
-                const root = document.documentElement;
-                root.classList.toggle("dark");
-                localStorage.setItem("color-scheme", root.classList.contains("dark") ? "dark" : "light");
-              }}
-              className="text-xs px-3 py-1.5 rounded-full border hover:border-red-400 hover:text-red-700 dark:hover:text-red-400"
-            >
-              🌓
-            </button>
-          </div>
-        </section>
+        </div>
       </div>
 
       {/* Barra inferiore */}
-      <div className="border-t dark:border-neutral-800">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-4 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-xs text-neutral-500 dark:text-neutral-400">
-          <p>© {new Date().getFullYear()} — Dati dal Rapporto ONU di Francesca Albanese.</p>
-          <div className="flex items-center gap-3">
-            <span className="inline-flex items-center gap-1 rounded-full border px-2 py-1">
-              <span aria-hidden>🏷️</span>
-              <span>{version}</span>
+      <div className="border-top py-3 bg-white">
+        <div className="container d-flex flex-column flex-sm-row justify-content-between align-items-center small text-muted gap-2">
+          <p className="mb-0">
+            © {new Date().getFullYear()} — Dati dal Rapporto ONU di Francesca Albanese.
+          </p>
+          <div className="d-flex align-items-center gap-2">
+            <span className="badge text-bg-light border">
+              🏷️ {version}
             </span>
-            <span className="hidden sm:inline">{L.madeWith}</span>
+            <span>{L.madeWith}</span>
           </div>
         </div>
       </div>
