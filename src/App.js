@@ -49,9 +49,6 @@ export default function EntityList() {
                 Dati tratti dal Rapporto ONU di Francesca Albanese e altre fonti ONU – 2025
               </p>
             </div>
-            <span className="badge bg-light text-dark border mt-3 mt-sm-0">
-              {filteredEntities.length} risult{filteredEntities.length === 1 ? "ato" : "ati"}
-            </span>
           </div>
         </div>
       </header>
@@ -100,6 +97,13 @@ export default function EntityList() {
 
         {/* Risultati */}
         <section>
+          {/* ✅ Badge conteggio risultati */}
+          <div className="my-3">
+            <span className="badge bg-secondary fs-6">
+              {filteredEntities.length} risult{filteredEntities.length === 1 ? "ato" : "ati"}
+            </span>
+          </div>
+          
           <h2 className="visually-hidden">Risultati</h2>
 
           {filteredEntities.length > 0 ? (
